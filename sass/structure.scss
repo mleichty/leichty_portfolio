@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $text, "sans-serif";
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: $black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  margin-bottom: 1.6rem;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+  //background-color: pink;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}

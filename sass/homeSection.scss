@@ -1,0 +1,231 @@
+.homeSection {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+
+  .homeSection__content {
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 120px;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  @media all and (min-width: 600px) {
+    .homeSection__content {
+      width: 50%;
+      h1 {
+        font-size: 5rem;
+      }
+    }
+  }
+
+  @media all and (min-width: 960px) {
+    .homeSection__content {
+      padding-left: 100px;
+      padding-top: 140px;
+      margin: auto;
+      h1 {
+        font-size: 6rem;
+      }
+    }
+  }
+
+  @media all and (min-width: 1250px) {
+    .homeSection__content {
+      h1 {
+        font-size: 8rem;
+      }
+    }
+  }
+
+  .homeSection__triDiv {
+    width: 50%;
+    //background-color: papayawhip;
+    //display: flex;
+    //align-items: flex-end;
+    //justify-content: flex-end;
+    //margin-bottom: -100px;
+    position: relative;
+
+    //main triangle
+    .homeSection__tri {
+      position: absolute;
+      right: 0;
+      bottom: -100px;
+      width: 0;
+      height: 0;
+      border-bottom: 40vw solid $teal;
+      border-right: 40vw solid $teal;
+      border-left: 40vw solid transparent;
+      border-top: 40vw solid transparent;
+      //border-bottom-left-radius: 100px;
+    }
+
+    @media all and (min-width: 960px) {
+      .homeSection__tri {
+        border-bottom: 28vw solid $teal;
+        border-right: 28vw solid $teal;
+        border-left: 28vw solid transparent;
+        border-top: 28vw solid transparent;
+      }
+    }
+
+    @media all and (min-width: 1500px) {
+      .homeSection__tri {
+        border-bottom: 375px solid $teal;
+        border-right: 375px solid $teal;
+        border-left: 375px solid transparent;
+        border-top: 375px solid transparent;
+      }
+    }
+
+    //small shape within big triangle
+    .homeSection__triSmall {
+      position: absolute;
+      right: 4vw;
+    }
+
+    @media all and (min-width: 600px) {
+      .homeSection__triSmall {
+        right: 6vw;
+      }
+    }
+
+    @media all and (min-width: 600px) {
+      .homeSection__triSmall {
+        right: 3vw;
+      }
+    }
+
+    @media all and (min-width: 1500px) {
+      .homeSection__triSmall {
+        right: 30px;
+      }
+    }
+
+    .homeSection__triSmall--1 {
+      bottom: 40vw;
+      height: 0;
+      width: 0;
+      border-bottom: 3vw solid $bronze;
+      border-right: 3vw solid $bronze;
+      border-left: 3vw solid transparent;
+      border-top: 3vw solid transparent;
+    }
+
+    @media all and (min-width: 600px) {
+      .homeSection__triSmall--1 {
+        bottom: 45vw;
+        border-bottom: 4vw solid $bronze;
+        border-right: 4vw solid $bronze;
+        border-left: 4vw solid transparent;
+        border-top: 4vw solid transparent;
+      }
+    }
+
+    @media all and (min-width: 960px) {
+      .homeSection__triSmall--1 {
+        bottom: 30vw;
+        border-bottom: 4vw solid $bronze;
+        border-right: 4vw solid $bronze;
+        border-left: 4vw solid transparent;
+        border-top: 4vw solid transparent;
+      }
+    }
+
+    @media all and (min-width: 1500px) {
+      .homeSection__triSmall--1 {
+        bottom: 450px;
+        border-bottom: 50px solid $bronze;
+        border-right: 50px solid $bronze;
+        border-left: 50px solid transparent;
+        border-top: 50px solid transparent;
+      }
+    }
+
+    .homeSection__triSmall--2 {
+      bottom: 25vw;
+      //border-bottom: 10vw solid $bronze;
+      //border-right: 7vw solid $bronze;
+      //border-left: 10vw solid transparent;
+      //border-top: 12vw solid transparent;
+      width: 20vw;
+
+      .clipMe2 {
+        clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+      }
+    }
+
+    @media all and (min-width: 600px) {
+      .homeSection__triSmall--2 {
+        bottom: 28vw;
+        width: 23vw;
+      }
+    }
+
+    @media all and (min-width: 960px) {
+      .homeSection__triSmall--2 {
+        bottom: 18vw;
+        width: 19vw;
+      }
+    }
+
+    @media all and (min-width: 1500px) {
+      .homeSection__triSmall--2 {
+        bottom: 300px;
+        width: 250px;
+      }
+    }
+
+    .homeSection__triSmall--3 {
+      bottom: 0;
+      width: 43vw;
+      //background-color: red;
+
+      .clipMe3 {
+        clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+      }
+    }
+
+    @media all and (min-width: 600px) {
+      .homeSection__triSmall--3 {
+        bottom: 0;
+        width: 50vw;
+      }
+    }
+
+    @media all and (min-width: 960px) {
+      .homeSection__triSmall--3 {
+        bottom: 0;
+        width: 37vw;
+      }
+    }
+
+    @media all and (min-width: 1500px) {
+      .homeSection__triSmall--3 {
+        bottom: 20px;
+        width: 525px;
+      }
+    }
+  }
+
+  @media all and (min-width: 960px) {
+    .homeSection__triDiv {
+      width: 50%;
+    }
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .homeSection {
+    height: 650px;
+  }
+}

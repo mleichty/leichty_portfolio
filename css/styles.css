@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: "Microsoft Sans Serif", "sans-serif"; }
+
+body {
+  font-size: 1.6rem;
+  background-color: #000; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Maiandra GD";
+  margin-bottom: 1.6rem; }
+
+p {
+  margin-bottom: 1.6rem; }
+
+a:hover {
+  opacity: 0.7; }
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto; }
+
+img {
+  width: 100%;
+  vertical-align: bottom; }
+
+.navBar {
+  position: fixed;
+  max-width: 150px;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: #fff;
+  border: 3px solid #226666;
+  border-top: 0;
+  border-radius: 10px;
+  display: flex;
+  z-index: 99; }
+  .navBar .navBar__left {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .navBar .navBar__left .navBar__logoDiv {
+      height: 40px;
+      width: 40px; }
+      .navBar .navBar__left .navBar__logoDiv .navBar__logo {
+        vertical-align: bottom; }
+    @media all and (min-width: 960px) {
+      .navBar .navBar__left .navBar__logoDiv {
+        height: 80px;
+        width: 80px; } }
+    .navBar .navBar__left .navBar__name {
+      font-size: 1.8rem;
+      margin-bottom: 0; }
+    @media all and (min-width: 960px) {
+      .navBar .navBar__left .navBar__name {
+        font-size: 3.0rem; } }
+  .navBar .navBar__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    position: relative; }
+    .navBar .navBar__right .navBar__link {
+      text-decoration: none;
+      color: #000;
+      font-family: "Maiandra GD"; }
+      .navBar .navBar__right .navBar__link:hover {
+        transform: scale(1.05);
+        transform-origin: left; }
+    .navBar .navBar__right .navBar__dropDown {
+      display: none;
+      position: absolute;
+      width: 170px;
+      right: -100px;
+      top: 20px;
+      padding: 10px;
+      background-color: #226666;
+      border-radius: 10px; }
+      .navBar .navBar__right .navBar__dropDown:hover {
+        display: block; }
+      .navBar .navBar__right .navBar__dropDown .navBar__projectLink {
+        text-decoration: none;
+        color: #fff; }
+    @media all and (min-width: 960px) {
+      .navBar .navBar__right .navBar__dropDown {
+        top: 27px; } }
+    .navBar .navBar__right .navBar__link--dropDown:hover ~ .navBar__dropDown {
+      display: block; }
+
+@media all and (min-width: 960px) {
+  .navBar {
+    max-width: 250px;
+    margin-left: 100px; } }
+
+.homeSection {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative; }
+  .homeSection .homeSection__content {
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 120px; }
+    .homeSection .homeSection__content h1 {
+      font-size: 3rem; }
+  @media all and (min-width: 600px) {
+    .homeSection .homeSection__content {
+      width: 50%; }
+      .homeSection .homeSection__content h1 {
+        font-size: 5rem; } }
+  @media all and (min-width: 960px) {
+    .homeSection .homeSection__content {
+      padding-left: 100px;
+      padding-top: 140px;
+      margin: auto; }
+      .homeSection .homeSection__content h1 {
+        font-size: 6rem; } }
+  @media all and (min-width: 1250px) {
+    .homeSection .homeSection__content h1 {
+      font-size: 8rem; } }
+  .homeSection .homeSection__triDiv {
+    width: 50%;
+    position: relative; }
+    .homeSection .homeSection__triDiv .homeSection__tri {
+      position: absolute;
+      right: 0;
+      bottom: -100px;
+      width: 0;
+      height: 0;
+      border-bottom: 40vw solid #226666;
+      border-right: 40vw solid #226666;
+      border-left: 40vw solid transparent;
+      border-top: 40vw solid transparent; }
+    @media all and (min-width: 960px) {
+      .homeSection .homeSection__triDiv .homeSection__tri {
+        border-bottom: 28vw solid #226666;
+        border-right: 28vw solid #226666;
+        border-left: 28vw solid transparent;
+        border-top: 28vw solid transparent; } }
+    @media all and (min-width: 1500px) {
+      .homeSection .homeSection__triDiv .homeSection__tri {
+        border-bottom: 375px solid #226666;
+        border-right: 375px solid #226666;
+        border-left: 375px solid transparent;
+        border-top: 375px solid transparent; } }
+    .homeSection .homeSection__triDiv .homeSection__triSmall {
+      position: absolute;
+      right: 4vw; }
+    @media all and (min-width: 600px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall {
+        right: 6vw; } }
+    @media all and (min-width: 600px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall {
+        right: 3vw; } }
+    @media all and (min-width: 1500px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall {
+        right: 30px; } }
+    .homeSection .homeSection__triDiv .homeSection__triSmall--1 {
+      bottom: 40vw;
+      height: 0;
+      width: 0;
+      border-bottom: 3vw solid #aa8439;
+      border-right: 3vw solid #aa8439;
+      border-left: 3vw solid transparent;
+      border-top: 3vw solid transparent; }
+    @media all and (min-width: 600px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--1 {
+        bottom: 45vw;
+        border-bottom: 4vw solid #aa8439;
+        border-right: 4vw solid #aa8439;
+        border-left: 4vw solid transparent;
+        border-top: 4vw solid transparent; } }
+    @media all and (min-width: 960px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--1 {
+        bottom: 30vw;
+        border-bottom: 4vw solid #aa8439;
+        border-right: 4vw solid #aa8439;
+        border-left: 4vw solid transparent;
+        border-top: 4vw solid transparent; } }
+    @media all and (min-width: 1500px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--1 {
+        bottom: 450px;
+        border-bottom: 50px solid #aa8439;
+        border-right: 50px solid #aa8439;
+        border-left: 50px solid transparent;
+        border-top: 50px solid transparent; } }
+    .homeSection .homeSection__triDiv .homeSection__triSmall--2 {
+      bottom: 25vw;
+      width: 20vw; }
+      .homeSection .homeSection__triDiv .homeSection__triSmall--2 .clipMe2 {
+        clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%); }
+    @media all and (min-width: 600px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--2 {
+        bottom: 28vw;
+        width: 23vw; } }
+    @media all and (min-width: 960px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--2 {
+        bottom: 18vw;
+        width: 19vw; } }
+    @media all and (min-width: 1500px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--2 {
+        bottom: 300px;
+        width: 250px; } }
+    .homeSection .homeSection__triDiv .homeSection__triSmall--3 {
+      bottom: 0;
+      width: 43vw; }
+      .homeSection .homeSection__triDiv .homeSection__triSmall--3 .clipMe3 {
+        clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%); }
+    @media all and (min-width: 600px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--3 {
+        bottom: 0;
+        width: 50vw; } }
+    @media all and (min-width: 960px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--3 {
+        bottom: 0;
+        width: 37vw; } }
+    @media all and (min-width: 1500px) {
+      .homeSection .homeSection__triDiv .homeSection__triSmall--3 {
+        bottom: 20px;
+        width: 525px; } }
+  @media all and (min-width: 960px) {
+    .homeSection .homeSection__triDiv {
+      width: 50%; } }
+
+@media all and (min-width: 1500px) {
+  .homeSection {
+    height: 650px; } }

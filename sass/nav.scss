@@ -1,0 +1,104 @@
+.navBar {
+  position: fixed;
+  max-width: 150px;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: $white;
+  border: 3px solid $teal;
+  border-top: 0;
+  border-radius: $bRadius;
+  display: flex;
+  z-index: 99;
+
+  .navBar__left {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    //background-color: olivedrab;
+
+    .navBar__logoDiv {
+      height: 40px;
+      width: 40px;
+
+      .navBar__logo {
+        //width: 100%;
+        vertical-align: bottom;
+      }
+    }
+
+    @media all and (min-width: 960px) {
+      .navBar__logoDiv {
+        height: 80px;
+        width: 80px;
+      }
+    }
+
+    .navBar__name {
+      font-size: 1.8rem;
+      margin-bottom: 0;
+    }
+
+    @media all and (min-width: 960px) {
+      .navBar__name {
+        font-size: 3.0rem;
+      }
+    }
+  }
+
+  .navBar__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    position: relative;
+    //background-color: mediumseagreen;
+
+    .navBar__link {
+      text-decoration: none;
+      color: $black;
+      font-family: $header;
+
+      &:hover {
+        transform: scale(1.05);
+        transform-origin: left;
+      }
+    }
+    .navBar__dropDown {
+      display: none;
+      position: absolute;
+      width: 170px;
+      right: -100px;
+      top: 20px;
+      padding: 10px;
+      background-color: $teal;
+      border-radius: $bRadius;
+
+      &:hover {
+        display: block;
+      }
+
+      .navBar__projectLink {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+
+    @media all and (min-width: 960px) {
+      .navBar__dropDown {
+        top: 27px;
+      }
+    }
+
+    .navBar__link--dropDown:hover ~.navBar__dropDown {
+      display: block;
+    }
+  }
+}
+
+@media all and (min-width: 960px) {
+  .navBar {
+    max-width: 250px;
+    margin-left: 100px;
+  }
+}
