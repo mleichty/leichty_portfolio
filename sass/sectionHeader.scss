@@ -1,0 +1,42 @@
+.sectionHeader {
+  background-color: $bronze;
+  width: 90%;
+  border-bottom-left-radius: $bRadius;
+  border-top-left-radius: $bRadius;
+  padding: 2.5rem;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .sectionHeader__num {
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-size: 5.5rem;
+  }
+
+  .sectionHeader__title {
+    margin-bottom: 0;
+    font-size: 2.6rem;
+  }
+
+  .sectionHeader__paraNoMB {
+    margin-bottom: 0;
+  }
+}
+
+.sectionHeader--noNum {
+  flex-direction: column;
+}
+
+@media all and (min-width: 960px) {
+  .sectionHeader {
+    width: 60%;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .sectionHeader {
+    width: 800px;
+  }
+}

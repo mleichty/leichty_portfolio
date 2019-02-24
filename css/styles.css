@@ -96,6 +96,160 @@ img {
     max-width: 250px;
     margin-left: 100px; } }
 
+.triangle__triDiv {
+  position: relative; }
+  .triangle__triDiv .triangle__tri {
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+    width: 0;
+    height: 0;
+    border-bottom: 40vw solid #226666;
+    border-right: 40vw solid #226666;
+    border-left: 40vw solid transparent;
+    border-top: 40vw solid transparent;
+    border-bottom-left-radius: 100px; }
+  @media all and (min-width: 960px) {
+    .triangle__triDiv .triangle__tri {
+      border-bottom-width: 28vw;
+      border-right-width: 28vw;
+      border-left-width: 28vw;
+      border-top-width: 28vw; } }
+  @media all and (min-width: 1500px) {
+    .triangle__triDiv .triangle__tri {
+      border-bottom-width: 375px;
+      border-right-width: 375px;
+      border-left-width: 375px;
+      border-top-width: 375px; } }
+  .triangle__triDiv .triangle__triSmall {
+    position: absolute;
+    right: 3vw; }
+  @media all and (min-width: 600px) {
+    .triangle__triDiv .triangle__triSmall {
+      right: 6vw; } }
+  @media all and (min-width: 600px) {
+    .triangle__triDiv .triangle__triSmall {
+      right: 3vw; } }
+  @media all and (min-width: 1500px) {
+    .triangle__triDiv .triangle__triSmall {
+      right: 30px; } }
+  .triangle__triDiv .triangle__triSmall--1 {
+    bottom: 40vw;
+    height: 0;
+    width: 0;
+    border-bottom: 3vw solid #aa8439;
+    border-right: 3vw solid #aa8439;
+    border-left: 3vw solid transparent;
+    border-top: 3vw solid transparent; }
+    .triangle__triDiv .triangle__triSmall--1:hover {
+      border-bottom-color: #AA3939;
+      border-right-color: #AA3939; }
+  @media all and (min-width: 600px) {
+    .triangle__triDiv .triangle__triSmall--1 {
+      bottom: 45vw;
+      border-bottom-width: 4vw;
+      border-right-width: 4vw;
+      border-left-width: 4vw;
+      border-top-width: 4vw; } }
+  @media all and (min-width: 960px) {
+    .triangle__triDiv .triangle__triSmall--1 {
+      bottom: 30vw;
+      border-bottom-width: 4vw;
+      border-right-width: 4vw;
+      border-left-width: 4vw;
+      border-top-width: 4vw; } }
+  @media all and (min-width: 1500px) {
+    .triangle__triDiv .triangle__triSmall--1 {
+      bottom: 450px;
+      border-bottom-width: 50px;
+      border-right-width: 50px;
+      border-left-width: 50px;
+      border-top-width: 50px; } }
+  .triangle__triDiv .triangle__triSmall--2 {
+    bottom: 25vw;
+    width: 20vw; }
+    .triangle__triDiv .triangle__triSmall--2 .clipMe2 {
+      clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%); }
+  @media all and (min-width: 600px) {
+    .triangle__triDiv .triangle__triSmall--2 {
+      bottom: 28vw;
+      width: 23vw; } }
+  @media all and (min-width: 960px) {
+    .triangle__triDiv .triangle__triSmall--2 {
+      bottom: 18vw;
+      width: 19vw; } }
+  @media all and (min-width: 1500px) {
+    .triangle__triDiv .triangle__triSmall--2 {
+      bottom: 300px;
+      width: 250px; } }
+  .triangle__triDiv .triangle__triSmall--3 {
+    bottom: 0;
+    width: 43vw; }
+    .triangle__triDiv .triangle__triSmall--3 .clipMe3 {
+      clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%); }
+  @media all and (min-width: 600px) {
+    .triangle__triDiv .triangle__triSmall--3 {
+      bottom: 0;
+      width: 50vw; } }
+  @media all and (min-width: 960px) {
+    .triangle__triDiv .triangle__triSmall--3 {
+      bottom: 0;
+      width: 37vw; } }
+  @media all and (min-width: 1500px) {
+    .triangle__triDiv .triangle__triSmall--3 {
+      bottom: 20px;
+      width: 525px; } }
+  .triangle__triDiv .triangle__subTitle {
+    position: absolute;
+    bottom: -110px;
+    right: 4vw;
+    font-size: 6.0rem;
+    color: white; }
+  @media all and (min-width: 600px) {
+    .triangle__triDiv .triangle__subTitle {
+      right: 15vw; } }
+  @media all and (min-width: 1500px) {
+    .triangle__triDiv .triangle__subTitle {
+      right: 200px; } }
+
+.triangle__triDiv--home {
+  width: 50%; }
+
+.triangle__triDiv--reg {
+  right: 0;
+  z-index: -1; }
+
+.sectionHeader {
+  background-color: #aa8439;
+  width: 90%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 2.5rem;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .sectionHeader .sectionHeader__num {
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-size: 5.5rem; }
+  .sectionHeader .sectionHeader__title {
+    margin-bottom: 0;
+    font-size: 2.6rem; }
+  .sectionHeader .sectionHeader__paraNoMB {
+    margin-bottom: 0; }
+
+.sectionHeader--noNum {
+  flex-direction: column; }
+
+@media all and (min-width: 960px) {
+  .sectionHeader {
+    width: 60%; } }
+
+@media all and (min-width: 1500px) {
+  .sectionHeader {
+    width: 800px; } }
+
 .homeSection {
   background-image: url("../images/bg3.jpg");
   background-repeat: no-repeat;
@@ -105,8 +259,7 @@ img {
   background-color: rgba(45, 45, 45, 0.5);
   background-blend-mode: darken;
   display: flex;
-  height: 100vh;
-  margin: 0 auto;
+  min-height: 100vh;
   position: relative; }
   .homeSection .homeSection__content {
     width: 90%;
@@ -130,154 +283,11 @@ img {
   @media all and (min-width: 1250px) {
     .homeSection .homeSection__content h1 {
       font-size: 8rem; } }
-  .homeSection .homeSection__triDiv {
-    width: 50%;
-    position: relative; }
-    .homeSection .homeSection__triDiv .homeSection__tri {
-      position: absolute;
-      right: 0;
-      bottom: -120px;
-      width: 0;
-      height: 0;
-      border-bottom: 40vw solid #226666;
-      border-right: 40vw solid #226666;
-      border-left: 40vw solid transparent;
-      border-top: 40vw solid transparent; }
-    @media all and (min-width: 960px) {
-      .homeSection .homeSection__triDiv .homeSection__tri {
-        border-bottom-width: 28vw;
-        border-right-width: 28vw;
-        border-left-width: 28vw;
-        border-top-width: 28vw; } }
-    @media all and (min-width: 1500px) {
-      .homeSection .homeSection__triDiv .homeSection__tri {
-        border-bottom-width: 375px;
-        border-right-width: 375px;
-        border-left-width: 375px;
-        border-top-width: 375px; } }
-    .homeSection .homeSection__triDiv .homeSection__triSmall {
-      position: absolute;
-      right: 3vw; }
-    @media all and (min-width: 600px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall {
-        right: 6vw; } }
-    @media all and (min-width: 600px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall {
-        right: 3vw; } }
-    @media all and (min-width: 1500px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall {
-        right: 30px; } }
-    .homeSection .homeSection__triDiv .homeSection__triSmall--1 {
-      bottom: 40vw;
-      height: 0;
-      width: 0;
-      border-bottom: 3vw solid #aa8439;
-      border-right: 3vw solid #aa8439;
-      border-left: 3vw solid transparent;
-      border-top: 3vw solid transparent; }
-      .homeSection .homeSection__triDiv .homeSection__triSmall--1:hover {
-        border-bottom-color: #AA3939;
-        border-right-color: #AA3939; }
-    @media all and (min-width: 600px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--1 {
-        bottom: 45vw;
-        border-bottom-width: 4vw;
-        border-right-width: 4vw;
-        border-left-width: 4vw;
-        border-top-width: 4vw; } }
-    @media all and (min-width: 960px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--1 {
-        bottom: 30vw;
-        border-bottom-width: 4vw;
-        border-right-width: 4vw;
-        border-left-width: 4vw;
-        border-top-width: 4vw; } }
-    @media all and (min-width: 1500px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--1 {
-        bottom: 450px;
-        border-bottom-width: 50px;
-        border-right-width: 50px;
-        border-left-width: 50px;
-        border-top-width: 50px; } }
-    .homeSection .homeSection__triDiv .homeSection__triSmall--2 {
-      bottom: 25vw;
-      width: 20vw; }
-      .homeSection .homeSection__triDiv .homeSection__triSmall--2 .clipMe2 {
-        clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%); }
-    @media all and (min-width: 600px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--2 {
-        bottom: 28vw;
-        width: 23vw; } }
-    @media all and (min-width: 960px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--2 {
-        bottom: 18vw;
-        width: 19vw; } }
-    @media all and (min-width: 1500px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--2 {
-        bottom: 300px;
-        width: 250px; } }
-    .homeSection .homeSection__triDiv .homeSection__triSmall--3 {
-      bottom: 0;
-      width: 43vw; }
-      .homeSection .homeSection__triDiv .homeSection__triSmall--3 .clipMe3 {
-        clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%); }
-    @media all and (min-width: 600px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--3 {
-        bottom: 0;
-        width: 50vw; } }
-    @media all and (min-width: 960px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--3 {
-        bottom: 0;
-        width: 37vw; } }
-    @media all and (min-width: 1500px) {
-      .homeSection .homeSection__triDiv .homeSection__triSmall--3 {
-        bottom: 20px;
-        width: 525px; } }
-    .homeSection .homeSection__triDiv .homeSection__subTitle {
-      position: absolute;
-      bottom: -110px;
-      right: 4vw;
-      font-size: 6.0rem;
-      color: white; }
-    @media all and (min-width: 600px) {
-      .homeSection .homeSection__triDiv .homeSection__subTitle {
-        right: 15vw; } }
-    @media all and (min-width: 1500px) {
-      .homeSection .homeSection__triDiv .homeSection__subTitle {
-        right: 200px; } }
-
-@media all and (min-width: 1500px) {
-  .homeSection {
-    height: 650px; } }
 
 .projectSection {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding-top: 60px; }
-  .projectSection .projectSection__top {
-    background-color: #aa8439;
-    width: 90%;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 2.5rem;
-    align-self: flex-end;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
-    .projectSection .projectSection__top .projectSection__num {
-      margin-right: 20px;
-      margin-bottom: 0;
-      font-size: 5.5rem; }
-    .projectSection .projectSection__top .projectSection__title {
-      margin-bottom: 0;
-      font-size: 2.6rem; }
-  @media all and (min-width: 960px) {
-    .projectSection .projectSection__top {
-      width: 60%; } }
-  @media all and (min-width: 1500px) {
-    .projectSection .projectSection__top {
-      width: 800px; } }
   .projectSection .projectSection__bottom {
     display: flex;
     flex-direction: column-reverse;
@@ -326,3 +336,175 @@ img {
 
 .projectSection--first {
   padding-top: 200px; }
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px; }
+  .aboutSection .aboutSection__split {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.0rem; }
+    .aboutSection .aboutSection__split .aboutSection__imageDiv {
+      width: 60%;
+      margin-bottom: 4.0rem;
+      box-shadow: -15px 15px 15px #aa8439; }
+      .aboutSection .aboutSection__split .aboutSection__imageDiv .aboutSection__image {
+        border-radius: 10px; }
+    .aboutSection .aboutSection__split .aboutSection__social {
+      width: 80%;
+      background-color: #aa8439;
+      border-radius: 10px;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-around; }
+      .aboutSection .aboutSection__split .aboutSection__social .aboutSection__icons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around; }
+        .aboutSection .aboutSection__split .aboutSection__social .aboutSection__icons .aboutSection__icon {
+          color: #000;
+          font-size: 6.0rem; }
+  @media all and (min-width: 600px) {
+    .aboutSection .aboutSection__split {
+      flex-direction: row; }
+      .aboutSection .aboutSection__split .aboutSection__imageDiv {
+        width: 40%;
+        margin-right: 50px; }
+      .aboutSection .aboutSection__split .aboutSection__social {
+        width: 40%; } }
+  @media all and (min-width: 960px) {
+    .aboutSection .aboutSection__split .aboutSection__imageDiv {
+      width: 20%; }
+    .aboutSection .aboutSection__split .aboutSection__social {
+      width: 40%; } }
+  .aboutSection .aboutSection__full {
+    margin: auto;
+    width: 70%;
+    background-color: #aa8439;
+    border-radius: 10px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 8rem; }
+    .aboutSection .aboutSection__full .aboutSection__skillDiv {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around; }
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px; }
+  .contactSection .contactSection__split {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 4rem 0 4rem; }
+    .contactSection .contactSection__split .contactSection__logoDiv {
+      width: 60%; }
+    .contactSection .contactSection__split .contactSection__formDiv {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 4.0rem;
+      width: 90%; }
+      .contactSection .contactSection__split .contactSection__formDiv .contactSection__form {
+        background-color: #aa8439;
+        padding: 2.0rem;
+        border-radius: 10px; }
+        .contactSection .contactSection__split .contactSection__formDiv .contactSection__form input, .contactSection .contactSection__split .contactSection__formDiv .contactSection__form textarea {
+          padding: 10px;
+          border: 1px solid #AA3939;
+          border-radius: 10px;
+          margin-top: 5px;
+          margin-bottom: 15px; }
+        .contactSection .contactSection__split .contactSection__formDiv .contactSection__form input[type=text] {
+          width: 100%; }
+        .contactSection .contactSection__split .contactSection__formDiv .contactSection__form input[type=email], .contactSection .contactSection__split .contactSection__formDiv .contactSection__form textarea {
+          width: 100%; }
+        .contactSection .contactSection__split .contactSection__formDiv .contactSection__form input[type=submit] {
+          cursor: pointer;
+          background-color: #AA3939; }
+          .contactSection .contactSection__split .contactSection__formDiv .contactSection__form input[type=submit]:hover {
+            background-color: black;
+            color: white; }
+  @media all and (min-width: 600px) {
+    .contactSection .contactSection__split {
+      flex-direction: row; }
+      .contactSection .contactSection__split .contactSection__logoDiv {
+        width: 30%;
+        align-self: flex-end; }
+      .contactSection .contactSection__split .contactSection__formDiv {
+        width: 60%;
+        margin-bottom: 0; } }
+  @media all and (min-width: 960px) {
+    .contactSection .contactSection__split .contactSection__logoDiv {
+      width: 30%; }
+    .contactSection .contactSection__split .contactSection__formDiv {
+      width: 40%; } }
+
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px; }
+  .projectPage .projectPage__sectionHeader {
+    width: 90%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around; }
+    .projectPage .projectPage__sectionHeader .projectPage__imageDiv {
+      width: 50%; }
+  @media all and (min-width: 960px) {
+    .projectPage .projectPage__sectionHeader {
+      width: 60%; } }
+  @media all and (min-width: 1500px) {
+    .projectPage .projectPage__sectionHeader {
+      width: 800px; } }
+  .projectPage .projectPage__split--imgR {
+    flex-direction: column-reverse; }
+  .projectPage .projectPage__split--imgL {
+    flex-direction: column; }
+  .projectPage .projectPage__split {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4.0rem; }
+    .projectPage .projectPage__split .projectPage__listDiv {
+      width: 80%;
+      background-color: #aa8439;
+      padding: 2.5rem;
+      border-radius: 10px; }
+      .projectPage .projectPage__split .projectPage__listDiv .projectPage__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .projectPage .projectPage__split .projectPage__listDiv .projectPage__list li {
+          margin-bottom: 1.6rem; }
+        .projectPage .projectPage__split .projectPage__listDiv .projectPage__list .projectPage__listNoMB {
+          margin-bottom: 0; }
+    .projectPage .projectPage__split .projectPage__screenDiv {
+      width: 80%;
+      margin-bottom: 4.0rem; }
+  @media all and (min-width: 960px) {
+    .projectPage .projectPage__split {
+      flex-direction: row;
+      padding: 8.0rem; }
+      .projectPage .projectPage__split .projectPage__listDiv {
+        width: 40%; }
+      .projectPage .projectPage__split .projectPage__screenDiv {
+        width: 40%;
+        margin-bottom: 0; } }
+
+@media all and (min-width: 600px) {
+  .projectPage {
+    padding-top: 50px; } }

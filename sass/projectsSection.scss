@@ -1,43 +1,8 @@
 .projectSection {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  //align-items: center;
   padding-top: 60px;
-
-  .projectSection__top {
-    background-color: $bronze;
-    width: 90%;
-    border-bottom-left-radius: $bRadius;
-    border-top-left-radius: $bRadius;
-    padding: 2.5rem;
-    align-self: flex-end;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    .projectSection__num {
-      margin-right: 20px;
-      margin-bottom: 0;
-      font-size: 5.5rem;
-    }
-
-    .projectSection__title {
-      margin-bottom: 0;
-      font-size: 2.6rem;
-    }
-  }
-
-  @media all and (min-width: 960px) {
-    .projectSection__top {
-      width: 60%;
-    }
-  }
-
-  @media all and (min-width: 1500px) {
-    .projectSection__top {
-      width: 800px;
-    }
-  }
 
   .projectSection__bottom {
     display: flex;

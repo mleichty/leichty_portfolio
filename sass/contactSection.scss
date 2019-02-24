@@ -1,0 +1,86 @@
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+
+  .contactSection__split {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 4rem 0 4rem;
+
+    .contactSection__logoDiv {
+      width: 60%;
+    }
+
+    .contactSection__formDiv {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 4.0rem;
+      width: 90%;
+
+      .contactSection__form {
+        background-color: $bronze;
+        padding: 2.0rem;
+        border-radius: $bRadius;
+
+        input, textarea {
+          padding: 10px;
+          border: 1px solid $red;
+          border-radius: $bRadius;
+          margin-top: 5px;
+          margin-bottom: 15px;
+        }
+
+        input[type=text] {
+          width: 100%;
+        }
+
+        input[type=email], textarea {
+          width: 100%;
+        }
+
+        input[type=submit] {
+          cursor: pointer;
+          background-color: $red;
+
+          &:hover {
+            background-color: black;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  @media all and (min-width: 600px) {
+    .contactSection__split {
+      flex-direction: row;
+
+      .contactSection__logoDiv {
+        width: 30%;
+        align-self: flex-end;
+      }
+
+      .contactSection__formDiv {
+        width: 60%;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media all and (min-width: 960px) {
+    .contactSection__split {
+
+      .contactSection__logoDiv {
+        width: 30%;
+      }
+
+      .contactSection__formDiv {
+        width: 40%;
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+
+  .aboutSection__split {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.0rem;
+
+    .aboutSection__imageDiv {
+      width: 60%;
+      margin-bottom: 4.0rem;
+      box-shadow: -15px 15px 15px $bronze;
+
+      .aboutSection__image {
+        border-radius: $bRadius;
+      }
+    }
+
+    .aboutSection__social {
+      width: 80%;
+      background-color: $bronze;
+      border-radius: $bRadius;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-around;
+
+      .aboutSection__icons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        .aboutSection__icon {
+          color: $black;
+          font-size: 6.0rem;
+        }
+      }
+    }
+  }
+
+  @media all and (min-width: 600px) {
+    .aboutSection__split {
+      flex-direction: row;
+
+      .aboutSection__imageDiv {
+        width: 40%;
+        margin-right: 50px;
+      }
+
+      .aboutSection__social {
+        width: 40%;
+      }
+    }
+  }
+
+  @media all and (min-width: 960px) {
+    .aboutSection__split {
+
+      .aboutSection__imageDiv {
+        width: 20%;
+      }
+
+      .aboutSection__social {
+        width: 40%;
+      }
+    }
+  }
+
+  .aboutSection__full {
+    margin: auto;
+    width: 70%;
+    background-color: $bronze;
+    border-radius: $bRadius;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+
+    .aboutSection__skillDiv {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
