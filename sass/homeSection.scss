@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  background-attachment: fixed;
   background-color: rgba(45, 45, 45, 0.5);
   background-blend-mode: darken;
   display: flex;
@@ -74,19 +75,19 @@
 
     @media all and (min-width: 960px) {
       .homeSection__tri {
-        border-bottom: 28vw solid $teal;
-        border-right: 28vw solid $teal;
-        border-left: 28vw solid transparent;
-        border-top: 28vw solid transparent;
+        border-bottom-width: 28vw;
+        border-right-width: 28vw;
+        border-left-width: 28vw;
+        border-top-width: 28vw;
       }
     }
 
     @media all and (min-width: 1500px) {
       .homeSection__tri {
-        border-bottom: 375px solid $teal;
-        border-right: 375px solid $teal;
-        border-left: 375px solid transparent;
-        border-top: 375px solid transparent;
+        border-bottom-width: 375px;
+        border-right-width: 375px;
+        border-left-width: 375px;
+        border-top-width: 375px;
       }
     }
 
@@ -132,30 +133,30 @@
     @media all and (min-width: 600px) {
       .homeSection__triSmall--1 {
         bottom: 45vw;
-        border-bottom: 4vw solid $bronze;
-        border-right: 4vw solid $bronze;
-        border-left: 4vw solid transparent;
-        border-top: 4vw solid transparent;
+        border-bottom-width: 4vw;
+        border-right-width: 4vw;
+        border-left-width: 4vw;
+        border-top-width: 4vw;
       }
     }
 
     @media all and (min-width: 960px) {
       .homeSection__triSmall--1 {
         bottom: 30vw;
-        border-bottom: 4vw solid $bronze;
-        border-right: 4vw solid $bronze;
-        border-left: 4vw solid transparent;
-        border-top: 4vw solid transparent;
+        border-bottom-width: 4vw;
+        border-right-width: 4vw;
+        border-left-width: 4vw;
+        border-top-width: 4vw;
       }
     }
 
     @media all and (min-width: 1500px) {
       .homeSection__triSmall--1 {
         bottom: 450px;
-        border-bottom: 50px solid $bronze;
-        border-right: 50px solid $bronze;
-        border-left: 50px solid transparent;
-        border-top: 50px solid transparent;
+        border-bottom-width: 50px;
+        border-right-width: 50px;
+        border-left-width: 50px;
+        border-top-width: 50px;
       }
     }
 
@@ -196,7 +197,6 @@
     .homeSection__triSmall--3 {
       bottom: 0;
       width: 43vw;
-      //background-color: red;
 
       .clipMe3 {
         clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
@@ -225,13 +225,11 @@
     }
 
     .homeSection__subTitle {
-      z-index: 1;
       position: absolute;
       bottom: -110px;
       right: 4vw;
       font-size: 6.0rem;
       color: white;
-      //background-color: blue;
     }
 
     @media all and (min-width: 600px) {
@@ -247,11 +245,12 @@
     }
   }
 
-  @media all and (min-width: 960px) {
-    .homeSection__triDiv {
-      width: 50%;
-    }
-  }
+  //@media all and (min-width: 960px) {
+  //  .homeSection__triDiv {
+  ////change if want to change width on mobile/tablet
+  //    width: 50%;
+  //  }
+  //}
 }
 
 @media all and (min-width: 1500px) {

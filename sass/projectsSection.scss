@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 60px;
 
   .projectSection__top {
     background-color: $bronze;
@@ -16,14 +16,12 @@
     justify-content: space-around;
 
     .projectSection__num {
-      //background-color: red;
       margin-right: 20px;
       margin-bottom: 0;
       font-size: 5.5rem;
     }
 
     .projectSection__title {
-      //background-color: blue;
       margin-bottom: 0;
       font-size: 2.6rem;
     }
@@ -47,7 +45,6 @@
     align-items: center;
     justify-content: space-around;
     padding: 2.0rem;
-    //background-color: red;
 
     .projectSection__left {
       width: 100%;
@@ -58,16 +55,16 @@
 
       .projectSection__lang {
         background-color: $bronze;
-        width: 80%;
+        width: 60%;
         padding: 1.0rem;
         text-align: center;
-        margin-right: 2.0rem;
         border-radius: $bRadius;
       }
 
       @media all and (min-width: 600px) {
         .projectSection__lang {
           width: 44%;
+          margin-right: 2.0rem;
         }
       }
 
@@ -76,7 +73,7 @@
       }
 
       .projectSection__lang--sm {
-        font-size: 2.0rem;
+        font-size: 2.9rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -105,4 +102,14 @@
       padding: 8.0rem;
     }
   }
+}
+
+@media all and (min-width: 960px) {
+  .projectSection {
+    padding-top: 0;
+  }
+}
+
+.projectSection--first {
+  padding-top: 200px;
 }
