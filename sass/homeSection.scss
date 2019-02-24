@@ -1,8 +1,10 @@
 .homeSection {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/bg3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
+  background-color: rgba(45, 45, 45, 0.5);
+  background-blend-mode: darken;
   display: flex;
   height: 100vh;
   margin: 0 auto;
@@ -12,9 +14,10 @@
     width: 90%;
     padding-left: 30px;
     padding-top: 120px;
+    color: $white;
 
     h1 {
-      font-size: 3rem;
+      font-size: 4rem;
     }
   }
 
@@ -59,7 +62,7 @@
     .homeSection__tri {
       position: absolute;
       right: 0;
-      bottom: -100px;
+      bottom: -120px;
       width: 0;
       height: 0;
       border-bottom: 40vw solid $teal;
@@ -90,7 +93,7 @@
     //small shape within big triangle
     .homeSection__triSmall {
       position: absolute;
-      right: 4vw;
+      right: 3vw;
     }
 
     @media all and (min-width: 600px) {
@@ -119,6 +122,11 @@
       border-right: 3vw solid $bronze;
       border-left: 3vw solid transparent;
       border-top: 3vw solid transparent;
+
+      &:hover {
+        border-bottom-color: $red;
+        border-right-color: $red;
+      }
     }
 
     @media all and (min-width: 600px) {
@@ -213,6 +221,28 @@
       .homeSection__triSmall--3 {
         bottom: 20px;
         width: 525px;
+      }
+    }
+
+    .homeSection__subTitle {
+      z-index: 1;
+      position: absolute;
+      bottom: -110px;
+      right: 4vw;
+      font-size: 6.0rem;
+      color: white;
+      //background-color: blue;
+    }
+
+    @media all and (min-width: 600px) {
+      .homeSection__subTitle {
+        right: 15vw;
+      }
+    }
+
+    @media all and (min-width: 1500px) {
+      .homeSection__subTitle {
+        right: 200px;
       }
     }
   }
