@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maria's Projects</title>
+    <link rel="shortcut icon" type="image/png" href="/images/Maria_logo.png"/>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -14,26 +15,26 @@
 <div class="wrapper">
     <nav class="navBar">
         <div class="navBar__left">
-            <a href="#" class="navBar__logoDiv">
+            <a href="index.html#homeSection" class="navBar__logoDiv">
                 <img class="navBar__logo" src="images/Maria_logo.png" alt="Maria's logo">
             </a>
             <h1 class="navBar__name">Maria</h1>
         </div>
         <div class="navBar__right">
-            <a href="#" class="navBar__link navBar__link--dropDown">Projects></a>
+            <a href="index.html#projectsSection" class="navBar__link navBar__link--dropDown">Projects></a>
             <div class="navBar__dropDown">
-                <a href="#" class="navBar__projectLink">Mythical Mates</a>
-                <a href="#" class="navBar__projectLink">BellaVista Fruit</a>
-                <a href="#" class="navBar__projectLink">Home Clean Home</a>
+                <a href="project1.html" class="navBar__projectLink">Mythical Mates</a>
+                <a href="project2.html" class="navBar__projectLink">BellaVista Fruit</a>
+                <a href="project3.html" class="navBar__projectLink">Home Clean Home</a>
             </div>
-            <a href="#" class="navBar__link">About</a>
-            <a href="#" class="navBar__link">Contact</a>
+            <a href="index.html#aboutSection" class="navBar__link">About</a>
+            <a href="#" class="navBar__link" id="contact">Contact</a>
         </div>
     </nav>
 
     <section class="projectPage">
         <div class="projectPage__sectionHeader">
-            <a class="projectPage__imageDiv" href="#">
+            <a class="projectPage__imageDiv" href="http://www.iupui.edu/~i211/students/mythicalmates/" target="_blank">
                 <img class="projectPage__image" src="images/mythicalmates3.png" alt="">
             </a>
         </div>
@@ -41,43 +42,40 @@
         <div class="sectionHeader">
             <p class="sectionHeader__num">1</p>
             <p class="sectionHeader__paraNoMB">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mauris quis sem tempor tempor.
-                Aliquam magna eros, aliquam in placerat vitae, mollis eget nunc. Aenean neque sem, sodales vitae
-                ullamcorper in, blandit ut turpis. Aliquam feugiat diam nec mauris suscipit, et maximus turpis
-                fermentum.
+                In this project, I used PHP and SQL to create a database-driven website. The website lists mythical
+                creatures and if you are logged in, you can add any of the creatures to your favorites page. Admin have
+                special privileges, including adding, editing and deleting creatures. Below are some screenshots or you
+                can go to the <a href="http://www.iupui.edu/~i211/students/mythicalmates/" target="_blank">website</a>.
             </p>
         </div>
 
         <div class="projectPage__split projectPage__split--imgR">
             <div class="projectPage__listDiv">
                 <ul class="projectPage__list">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li class="projectPage__listNoMB">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                    <li>Connected to database to retrieve and display information about the creatures</li>
+                    <li>Used flex box to efficiently display cards with the creature picture and name</li>
+                    <li class="projectPage__listNoMB">Incorporated AJAX search bar in navigation if user wants to search
+                        via name or description
+                    </li>
                 </ul>
             </div>
 
-            <div class="projectPage__screenDiv">
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
                 <img class="projectPage__screen" src="images/mm2.png" alt="">
             </div>
         </div>
 
         <div class="projectPage__split projectPage__split--imgL">
-            <div class="projectPage__screenDiv">
-                <img class="projectPage__screen" src="images/mm2.png" alt="">
+            <div class="projectPage__screenDiv projectPage__screenDiv--L">
+                <img class="projectPage__screen" src="images/mm3.png" alt="">
             </div>
 
             <div class="projectPage__listDiv">
                 <ul class="projectPage__list">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li class="projectPage__listNoMB">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                    <li>Utilized cookies across controllers to store favorites when a user is logged in</li>
+                    <li class="projectPage__listNoMB">Passed parameters to view pages to display logged out versus
+                        logged in nav bar options.
+                    </li>
                 </ul>
             </div>
         </div>
@@ -85,33 +83,31 @@
         <div class="projectPage__split projectPage__split--imgR">
             <div class="projectPage__listDiv">
                 <ul class="projectPage__list">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li class="projectPage__listNoMB">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                    <li>Created user object to organize MVC pattern between creatures and users</li>
+                    <li>Used post method to retrieve user data input and store user in database</li>
+                    <li class="projectPage__listNoMB">Implemented try, throw, catch method along with html error
+                        handling for security
+                    </li>
                 </ul>
             </div>
 
-            <div class="projectPage__screenDiv">
-                <img class="projectPage__screen" src="images/mm2.png" alt="">
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
+                <img class="projectPage__screen" src="images/mm4.png" alt="">
             </div>
         </div>
 
         <div class="projectPage__split projectPage__split--imgL">
-            <div class="projectPage__screenDiv">
-                <img class="projectPage__screen" src="images/mm2.png" alt="">
+            <div class="projectPage__screenDiv projectPage__screenDiv--L">
+                <img class="projectPage__screen" src="images/mm1.png" alt="">
             </div>
 
             <div class="projectPage__listDiv">
                 <ul class="projectPage__list">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li class="projectPage__listNoMB">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                    <li>Passed creature id as third parameter in url to display specific creature details</li>
+                    <li>Admin access will display edit and delete buttons as an option</li>
+                    <li class="projectPage__listNoMB">Admins can also add a creature which will show as an option in the
+                        nav bar
+                    </li>
                 </ul>
             </div>
         </div>
@@ -124,11 +120,10 @@
         </div>
     </section>
 
-    <section class="contactSection">
+    <section class="contactSection" id="contactSection">
         <div class="sectionHeader sectionHeader--noNum">
             <p class="sectionHeader__title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mauris quis sem tempor tempor.
-                Aliquam magna eros,
+                If you’re interested in working with me, send me a quick message and let me know what I can do for you!
             </p>
         </div>
 
@@ -139,12 +134,12 @@
 
             <div class="contactSection__formDiv">
                 <div class="contactSection__form">
-                    <form action="#">
+                    <form action="mailto:mleichty@iu.edu" method="post" enctype="text/plain">
                         <input type="text" name="firstName" placeholder="First Name" required>
                         <input type="text" name="lastName" placeholder="Last Name" required>
                         <input type="email" name="email" placeholder="Email" required>
                         <textarea name="message" placeholder="Write your message here..." required></textarea>
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Send">
                     </form>
                 </div>
             </div>
@@ -152,5 +147,8 @@
     </section>
 
 </div>
+
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="app/app.js"></script>
 </body>
 </html>

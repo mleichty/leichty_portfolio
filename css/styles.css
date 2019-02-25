@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-bottom: 1.6rem; }
 
+a {
+  color: #AA3939; }
+
 a:hover {
   opacity: 0.7; }
 
@@ -28,6 +31,10 @@ a:hover {
 img {
   width: 100%;
   vertical-align: bottom; }
+
+::selection {
+  color: #aa8439;
+  background: #226666; }
 
 .navBar {
   position: fixed;
@@ -362,6 +369,8 @@ img {
       flex-direction: column;
       text-align: center;
       justify-content: space-around; }
+      .aboutSection .aboutSection__split .aboutSection__social .aboutSection__h1 {
+        font-size: 2.4rem; }
       .aboutSection .aboutSection__split .aboutSection__social .aboutSection__icons {
         display: flex;
         flex-wrap: wrap;
@@ -394,11 +403,17 @@ img {
     text-align: center;
     justify-content: space-around;
     margin-bottom: 8rem; }
+    .aboutSection .aboutSection__full .aboutSection__h1 {
+      font-size: 2.4rem; }
+    .aboutSection .aboutSection__full .aboutSection__h2 {
+      font-style: italic; }
     .aboutSection .aboutSection__full .aboutSection__skillDiv {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-around; }
+      .aboutSection .aboutSection__full .aboutSection__skillDiv .aboutSection__skill {
+        margin: 20px 50px 20px 50px; }
 
 .contactSection {
   display: flex;
@@ -486,8 +501,7 @@ img {
       border-radius: 10px; }
       .projectPage .projectPage__split .projectPage__listDiv .projectPage__list {
         display: flex;
-        flex-direction: column;
-        align-items: center; }
+        flex-direction: column; }
         .projectPage .projectPage__split .projectPage__listDiv .projectPage__list li {
           margin-bottom: 1.6rem; }
         .projectPage .projectPage__split .projectPage__listDiv .projectPage__list .projectPage__listNoMB {
@@ -495,6 +509,12 @@ img {
     .projectPage .projectPage__split .projectPage__screenDiv {
       width: 80%;
       margin-bottom: 4.0rem; }
+      .projectPage .projectPage__split .projectPage__screenDiv .projectPage__screen {
+        border-radius: 10px; }
+    .projectPage .projectPage__split .projectPage__screenDiv--R {
+      box-shadow: 15px 15px 15px #aa8439; }
+    .projectPage .projectPage__split .projectPage__screenDiv--L {
+      box-shadow: -15px 15px 15px #aa8439; }
   @media all and (min-width: 960px) {
     .projectPage .projectPage__split {
       flex-direction: row;

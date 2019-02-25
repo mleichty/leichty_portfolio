@@ -50,7 +50,7 @@
         display: flex;
         flex-direction: column;
         //justify-content: space-around;
-        align-items: center;
+        //align-items: center;
 
         li {
           margin-bottom: 1.6rem;
@@ -66,6 +66,20 @@
     .projectPage__screenDiv {
       width: 80%;
       margin-bottom: 4.0rem;
+
+      .projectPage__screen {
+        border-radius: $bRadius;
+        //overflow: hidden;
+        //background-color: transparent;
+      }
+    }
+
+    .projectPage__screenDiv--R {
+      box-shadow: 15px 15px 15px $bronze;
+    }
+
+    .projectPage__screenDiv--L {
+      box-shadow: -15px 15px 15px $bronze;
     }
   }
 

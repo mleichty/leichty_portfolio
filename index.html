@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maria's Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="/images/Maria_logo.png"/>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -14,34 +15,34 @@
 <div class="wrapper">
     <nav class="navBar">
         <div class="navBar__left">
-            <a href="#" class="navBar__logoDiv">
+            <a href="#" class="navBar__logoDiv" id="home">
                 <img class="navBar__logo" src="images/Maria_logo.png" alt="Maria's logo">
             </a>
             <h1 class="navBar__name">Maria</h1>
         </div>
         <div class="navBar__right">
-            <a href="#" class="navBar__link navBar__link--dropDown">Projects></a>
+            <a href="#" class="navBar__link navBar__link--dropDown" id="projects">Projects></a>
             <div class="navBar__dropDown">
-                <a href="#" class="navBar__projectLink">Mythical Mates</a>
-                <a href="#" class="navBar__projectLink">BellaVista Fruit</a>
-                <a href="#" class="navBar__projectLink">Home Clean Home</a>
+                <a href="project1.html" class="navBar__projectLink">Mythical Mates</a>
+                <a href="project2.html" class="navBar__projectLink">BellaVista Fruit</a>
+                <a href="project3.html" class="navBar__projectLink">Home Clean Home</a>
             </div>
-            <a href="#" class="navBar__link">About</a>
-            <a href="#" class="navBar__link">Contact</a>
+            <a href="#" class="navBar__link" id="about">About</a>
+            <a href="#" class="navBar__link" id="contact">Contact</a>
         </div>
     </nav>
 
-    <section class="homeSection">
+    <section class="homeSection" id="homeSection">
         <div class="homeSection__content">
             <h1>Front-end.</h1>
             <h1>Back-end.</h1>
             <h1>Design.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mauris quis sem tempor tempor. Aliquam
-                magna eros, aliquam in placerat vitae, mollis eget nunc. Aenean neque sem, sodales vitae ullamcorper in,
-                blandit ut turpis. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mauris quis sem tempor tempor. Aliquam
-                magna eros, aliquam in placerat vitae, mollis eget nunc. Aenean neque sem, sodales vitae ullamcorper in,
-                blandit ut turpis. </p>
+            <p>Welcome to my portfolio! I am a web developer that focuses on front-end development and also has
+                experience in back-end development. Throw in a dash of design and that’s pretty much me in a
+                nutshell. </p>
+            <p>Check out my projects below that I’ve worked on and what languages I’ve used to write them. For this
+                website, I used html, css, sass, Javascript, jQuery, and BEM while focusing on responsive design. <a
+                        href="https://xd.adobe.com/view/57b66ba5-5400-454b-6d3f-a07aa6d8904d-2187/?fullscreen" target="_blank">Here</a> is the XD Prototype. </p>
         </div>
         <div class="triangle__triDiv triangle__triDiv--home">
             <div class="triangle__tri"></div>
@@ -50,13 +51,13 @@
                 <img class="clipMe2" src="images/css.JPG" alt="">
             </div>
             <div class="triangle__triSmall triangle__triSmall--3">
-                <img class="clipMe3" src="images/css.JPG" alt="">
+                <img class="clipMe3" src="images/html.JPG" alt="">
             </div>
             <h1 class="triangle__subTitle">Projects</h1>
         </div>
     </section>
 
-    <section class="projectSection projectSection--first">
+    <section class="projectSection projectSection--first" id="projectsSection">
         <div class="sectionHeader">
             <h1 class="sectionHeader__num">1</h1>
             <p class="sectionHeader__title">
@@ -75,7 +76,7 @@
                 <h1 class="projectSection__lang projectSection__lang--lg">MVC</h1>
                 <h1 class="projectSection__lang projectSection__lang--sm">Responsive</h1>
             </div>
-            <a href="#" class="projectSection__right">
+            <a href="project1.html" class="projectSection__right">
                 <img src="images/mythicalmates3.png" alt="">
             </a>
         </div>
@@ -98,7 +99,7 @@
                 <h1 class="projectSection__lang projectSection__lang--lg">{Sass}</h1>
                 <h1 class="projectSection__lang projectSection__lang--sm">Animations</h1>
             </div>
-            <a href="#" class="projectSection__right">
+            <a href="http://www.bellavistafruit.com/" target="_blank" class="projectSection__right">
                 <img src="images/bellavista3.png" alt="">
             </a>
         </div>
@@ -122,7 +123,7 @@
                 <h1 class="projectSection__lang projectSection__lang--sm">Custom{css}</h1>
                 <h1 class="projectSection__lang projectSection__lang--sm">Animations</h1>
             </div>
-            <a href="#" class="projectSection__right">
+            <a href="https://yourhomecleanhome.com/" target="_blank" class="projectSection__right">
                 <img src="images/homecleanhome3.png" alt="">
             </a>
         </div>
@@ -133,19 +134,19 @@
         </div>
     </section>
 
-    <section class="aboutSection">
+    <section class="aboutSection" id="aboutSection">
         <div class="sectionHeader sectionHeader--noNum">
             <p class="sectionHeader__para">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mauris quis sem tempor tempor.
-                Aliquam magna eros, aliquam in placerat vitae, mollis eget nunc. Aenean neque sem, sodales vitae
-                ullamcorper in, blandit ut turpis. Aliquam feugiat diam nec mauris suscipit, et maximus turpis
-                fermentum.
+                Hello! My name is Maria and I enjoy telling people’s stories. I live in Indianapolis and was in
+                journalism for 3 years here telling people’s stories in print form. Now, I tell people’s and businesses’
+                stories through websites.
             </p>
             <p class="sectionHeader__paraNoMB">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mauris quis sem tempor tempor.
-                Aliquam magna eros, aliquam in placerat vitae, mollis eget nunc. Aenean neque sem, sodales vitae
-                ullamcorper in, blandit ut turpis. Aliquam feugiat diam nec mauris suscipit, et maximus turpis
-                fermentum.
+                I am a stickler for small details which is why I enjoy web development so much. I will always try to
+                figure out the ‘why’ and not just the ‘how’. And I love learning new things. Outside of work, I am a big
+                Butler basketball fan and I spend a little too much money on exciting new restaurants. To read more
+                about my past work experience, check out my <a href="https://www.linkedin.com/in/marialeichty/"
+                                                               target="_blank">LinkedIn</a>.
             </p>
         </div>
 
@@ -155,25 +156,84 @@
             </div>
 
             <div class="aboutSection__social">
-                <div class="aboutSection__follow">
+                <div class="aboutSection__h1">
                     <h1>Social</h1>
                 </div>
                 <div class="aboutSection__icons">
-                    <a class="aboutSection__icon" href="#"><i class="fab fa-linkedin"></i></a>
-                    <a class="aboutSection__icon" href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a class="aboutSection__icon" href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a class="aboutSection__icon" href="https://www.linkedin.com/in/marialeichty/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a class="aboutSection__icon" href="https://www.facebook.com/maria.leichty" target="_blank"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a class="aboutSection__icon" href="https://twitter.com/Leichty4" target="_blank"><i
+                            class="fab fa-twitter-square"></i></a>
                 </div>
             </div>
         </div>
 
         <div class="aboutSection__full">
-            <div class="aboutSection__skills">
+            <div class="aboutSection__h1">
                 <h1>Skills</h1>
             </div>
+            <div class="aboutSection__h2">
+                <h2>Proficient in:</h2>
+            </div>
             <div class="aboutSection__skillDiv">
-                <a class="aboutSection__skill" href="#"><i class="fab fa-linkedin"></i></a>
-                <a class="aboutSection__skill" href="#"><i class="fab fa-facebook-square"></i></a>
-                <a class="aboutSection__skill" href="#"><i class="fab fa-twitter-square"></i></a>
+                <div class="aboutSection__skill">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>CSS3</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>PHP</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>BEM</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>WordPress</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>Adobe XD</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>Premiere</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>Photoshop</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>Illustrator</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>InDesign</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>Audition</h3>
+                </div>
+            </div>
+            <div class="aboutSection__h2">
+                <h2>Familiar with:</h2>
+            </div>
+            <div class="aboutSection__skillDiv">
+                <div class="aboutSection__skill">
+                    <h3>Java</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>React</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>jQuery</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>Bootstrap</h3>
+                </div>
+                <div class="aboutSection__skill">
+                    <h3>MySQL</h3>
+                </div>
             </div>
         </div>
 
@@ -183,11 +243,10 @@
         </div>
     </section>
 
-    <section class="contactSection">
+    <section class="contactSection" id="contactSection">
         <div class="sectionHeader sectionHeader--noNum">
             <p class="sectionHeader__title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mauris quis sem tempor tempor.
-                Aliquam magna eros,
+                If you’re interested in working with me, send me a quick message and let me know what I can do for you!
             </p>
         </div>
 
@@ -198,17 +257,20 @@
 
             <div class="contactSection__formDiv">
                 <div class="contactSection__form">
-                    <form action="#">
+                    <form action="mailto:mleichty@iu.edu" method="post" enctype="text/plain">
                         <input type="text" name="firstName" placeholder="First Name" required>
                         <input type="text" name="lastName" placeholder="Last Name" required>
                         <input type="email" name="email" placeholder="Email" required>
                         <textarea name="message" placeholder="Write your message here..." required></textarea>
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Send">
                     </form>
                 </div>
             </div>
         </div>
     </section>
 </div>
+
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="app/app.js"></script>
 </body>
 </html>

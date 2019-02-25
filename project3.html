@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maria's Projects</title>
+    <link rel="shortcut icon" type="image/png" href="/images/Maria_logo.png"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+<div class="wrapper">
+    <nav class="navBar">
+        <div class="navBar__left">
+            <a href="index.html#homeSection" class="navBar__logoDiv">
+                <img class="navBar__logo" src="images/Maria_logo.png" alt="Maria's logo">
+            </a>
+            <h1 class="navBar__name">Maria</h1>
+        </div>
+        <div class="navBar__right">
+            <a href="index.html#projectsSection" class="navBar__link navBar__link--dropDown">Projects></a>
+            <div class="navBar__dropDown">
+                <a href="project1.html" class="navBar__projectLink">Mythical Mates</a>
+                <a href="project2.html" class="navBar__projectLink">BellaVista Fruit</a>
+                <a href="project3.html" class="navBar__projectLink">Home Clean Home</a>
+            </div>
+            <a href="index.html#aboutSection" class="navBar__link">About</a>
+            <a href="#" class="navBar__link" id="contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="projectPage">
+        <div class="projectPage__sectionHeader">
+            <a class="projectPage__imageDiv" href="https://yourhomecleanhome.com/" target="_blank">
+                <img class="projectPage__image" src="images/homecleanhome3.png" alt="">
+            </a>
+        </div>
+
+        <div class="sectionHeader">
+            <p class="sectionHeader__num">3</p>
+            <p class="sectionHeader__paraNoMB">
+                I designed this website for <a href="https://trgwebdesigns.com/" target="_blank">TRG Web Designs</a>. We collaborated with the owner of Home Clean Home and
+                gauged her goals with the website. I developed the site through WordPress using the Divi Builder plugin.
+                In addition, I incorporated security and maintenance features as well as Google Analytics. Below are
+                some screenshots or you can go to the <a href="https://yourhomecleanhome.com/" target="_blank">website</a>.
+            </p>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgR">
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Added heavy iconography for a simple and cohesive feel</li>
+                    <li>Used bright colors, similar to many cleaning websites out there</li>
+                    <li class="projectPage__listNoMB">Incorporated colors into design for a happy, vibrant website impression
+                    </li>
+                </ul>
+            </div>
+
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
+                <img class="projectPage__screen" src="images/hch1.png" alt="">
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgL">
+            <div class="projectPage__screenDiv projectPage__screenDiv--L">
+                <img class="projectPage__screen" src="images/hch2.png" alt="">
+            </div>
+
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Utilized Divi features like hover and animations to engage users</li>
+                    <li>Added custom styling to Divi elements and child theme</li>
+                    <li class="projectPage__listNoMB">Incorporated company plugins</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgR">
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Adhered to company project guidelines by using things like call-to-action buttons frequently and full-page hero image</li>
+                    <li class="projectPage__listNoMB">Tested mobile features and responsiveness thoroughly</li>
+                </ul>
+            </div>
+
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
+                <img class="projectPage__screen" src="images/hch3.png" alt="">
+            </div>
+        </div>
+
+        <!--add any extra sections HERE-->
+
+        <div class="triangle__triDiv triangle__triDiv--reg">
+            <div class="triangle__tri"></div>
+            <h1 class="triangle__subTitle">Contact</h1>
+        </div>
+    </section>
+
+    <section class="contactSection" id="contactSection">
+        <div class="sectionHeader sectionHeader--noNum">
+            <p class="sectionHeader__title">
+                If you’re interested in working with me, send me a quick message and let me know what I can do for you!
+            </p>
+        </div>
+
+        <div class="contactSection__split">
+            <div class="contactSection__logoDiv">
+                <img src="images/logo_big.png" alt="">
+            </div>
+
+            <div class="contactSection__formDiv">
+                <div class="contactSection__form">
+                    <form action="mailto:mleichty@iu.edu" method="post" enctype="text/plain">
+                        <input type="text" name="firstName" placeholder="First Name" required>
+                        <input type="text" name="lastName" placeholder="Last Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Write your message here..." required></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>

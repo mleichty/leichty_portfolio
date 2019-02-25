@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maria's Projects</title>
+    <link rel="shortcut icon" type="image/png" href="/images/Maria_logo.png"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+<div class="wrapper">
+    <nav class="navBar">
+        <div class="navBar__left">
+            <a href="index.html#homeSection" class="navBar__logoDiv">
+                <img class="navBar__logo" src="images/Maria_logo.png" alt="Maria's logo">
+            </a>
+            <h1 class="navBar__name">Maria</h1>
+        </div>
+        <div class="navBar__right">
+            <a href="index.html#projectsSection" class="navBar__link navBar__link--dropDown">Projects></a>
+            <div class="navBar__dropDown">
+                <a href="project1.html" class="navBar__projectLink">Mythical Mates</a>
+                <a href="project2.html" class="navBar__projectLink">BellaVista Fruit</a>
+                <a href="project3.html" class="navBar__projectLink">Home Clean Home</a>
+            </div>
+            <a href="index.html#aboutSection" class="navBar__link">About</a>
+            <a href="#" class="navBar__link" id="contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="projectPage">
+        <div class="projectPage__sectionHeader">
+            <a class="projectPage__imageDiv" href="http://www.bellavistafruit.com/" target="_blank">
+                <img class="projectPage__image" src="images/bellavista3.png" alt="">
+            </a>
+        </div>
+
+        <div class="sectionHeader">
+            <p class="sectionHeader__num">2</p>
+            <p class="sectionHeader__paraNoMB">
+                For BellaVista Fruit Company, I originally branded the entire business. I created their logo, their
+                pineapple box and a company video amongst other things. I then incorporated these features into a
+                website using html and sass and a little JavaScript. Below are some screenshots or you can go to the
+                <a href="http://www.bellavistafruit.com/" target="_blank">website</a>.
+            </p>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgR">
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Used Sass to create a more efficient css process</li>
+                    <li>Incorporated flex box to speed up the design process and create a more responsive site</li>
+                    <li class="projectPage__listNoMB">Implemented animations for brand awareness and user-friendly
+                        interactions
+                    </li>
+                </ul>
+            </div>
+
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
+                <img class="projectPage__screen" src="images/bv2.png" alt="">
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgL">
+            <div class="projectPage__screenDiv projectPage__screenDiv--L">
+                <img class="projectPage__screen" src="images/bv1.png" alt="">
+            </div>
+
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Integrated color scheme to create a consistent look and feel throughout the site</li>
+                    <li>Designed graphics in Illustrator to engage readers</li>
+                    <li class="projectPage__listNoMB">Used pineapple box design features at the top of every section
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgR">
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Shot stills, video and audio for company video</li>
+                    <li class="projectPage__listNoMB">Edited together two-minute video using Adobe Premiere
+                    </li>
+                </ul>
+            </div>
+
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
+                <img class="projectPage__screen" src="images/bv4.png" alt="">
+            </div>
+        </div>
+
+        <!--add any extra sections HERE-->
+
+        <div class="triangle__triDiv triangle__triDiv--reg">
+            <div class="triangle__tri"></div>
+            <h1 class="triangle__subTitle">Contact</h1>
+        </div>
+    </section>
+
+    <section class="contactSection" id="contactSection">
+        <div class="sectionHeader sectionHeader--noNum">
+            <p class="sectionHeader__title">
+                If you’re interested in working with me, send me a quick message and let me know what I can do for you!
+            </p>
+        </div>
+
+        <div class="contactSection__split">
+            <div class="contactSection__logoDiv">
+                <img src="images/logo_big.png" alt="">
+            </div>
+
+            <div class="contactSection__formDiv">
+                <div class="contactSection__form">
+                    <form action="mailto:mleichty@iu.edu" method="post" enctype="text/plain">
+                        <input type="text" name="firstName" placeholder="First Name" required>
+                        <input type="text" name="lastName" placeholder="Last Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Write your message here..." required></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>
