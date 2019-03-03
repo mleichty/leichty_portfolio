@@ -3,106 +3,148 @@
   flex-direction: column;
   padding-top: 200px;
 
-  .aboutSection__split {
+  .aboutSection__content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 4.0rem;
+    flex-direction: column;
+    //background-color: red;
 
-    .aboutSection__imageDiv {
-      width: 60%;
-      margin-bottom: 4.0rem;
-      box-shadow: -15px 15px 15px $bronze;
+    .aboutSection__split {
+      //width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 4.0rem;
 
-      .aboutSection__image {
-        border-radius: $bRadius;
+      .aboutSection__imageDiv {
+        width: 80%;
+        margin-bottom: 4.0rem;
+
+        .aboutSection__image {
+          border-radius: $bRadius;
+        }
+      }
+
+      .aboutSection__social {
+        width: 80%;
+        color: $white;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+
+        .aboutSection__h1 {
+          font-size: 2.4rem;
+        }
+
+        .aboutSection__icons {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+
+          .aboutSection__icon {
+            font-size: 6.0rem;
+          }
+        }
       }
     }
 
-    .aboutSection__social {
-      width: 80%;
-      background-color: $bronze;
-      border-radius: $bRadius;
-      padding: 3rem;
+    .aboutSection__full {
+      width: 70%;
+      color: $white;
+      padding-top: 4rem;
       display: flex;
       flex-direction: column;
       text-align: center;
       justify-content: space-around;
+      align-items: center;
 
       .aboutSection__h1 {
         font-size: 2.4rem;
       }
 
-      .aboutSection__icons {
+      .aboutSection__h2 {
+        font-style: italic;
+      }
+
+      .aboutSection__skillsDiv {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        flex-direction: column;
         justify-content: space-around;
 
-        .aboutSection__icon {
-          color: $black;
-          font-size: 6.0rem;
+        .aboutSection__skillDiv {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+
+          .aboutSection__skill {
+            width: 20%;
+            margin-right: 20px;
+          }
+
+          .aboutSection__bar {
+            height: 30px;
+            background-color: $bronze;
+          }
+
+          .aboutSection__bar--100 {
+            width: 80%;
+          }
+
+          .aboutSection__bar--75 {
+            width: 65%;
+          }
+
+          .aboutSection__bar--60 {
+            width: 60%;
+          }
+
+          .aboutSection__bar--50 {
+            width: 50%;
+          }
+
+          .aboutSection__bar--40 {
+            width: 40%;
+          }
+
+          .aboutSection__bar--30 {
+            width: 30%;
+          }
         }
       }
     }
   }
 
   @media all and (min-width: 600px) {
-    .aboutSection__split {
-      flex-direction: row;
+    .aboutSection__content {
+      .aboutSection__split {
 
-      .aboutSection__imageDiv {
-        width: 40%;
-        margin-right: 50px;
-      }
+        .aboutSection__imageDiv {
+          width: 100%;
+        }
 
-      .aboutSection__social {
-        width: 40%;
+        .aboutSection__social {
+          width: 100%;
+        }
       }
     }
   }
 
   @media all and (min-width: 960px) {
-    .aboutSection__split {
+    .aboutSection__content {
+      flex-direction: row;
+      padding: 6rem;
+      align-items: start;
 
-      .aboutSection__imageDiv {
-        width: 20%;
+      .aboutSection__split {
+        padding-top: 0;
       }
 
-      .aboutSection__social {
+      .aboutSection__full {
         width: 40%;
-      }
-    }
-  }
-
-  .aboutSection__full {
-    margin: auto;
-    width: 70%;
-    background-color: $bronze;
-    border-radius: $bRadius;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-    margin-bottom: 8rem;
-
-    .aboutSection__h1 {
-      font-size: 2.4rem;
-    }
-
-    .aboutSection__h2 {
-      font-style: italic;
-    }
-
-    .aboutSection__skillDiv {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
-      .aboutSection__skill {
-        margin: 20px 50px 20px 50px;
       }
     }
   }

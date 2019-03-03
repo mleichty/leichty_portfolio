@@ -1,5 +1,7 @@
 .sectionHeader {
-  background-color: $bronze;
+  border: 5px solid $bronze;
+  border-right: 0;
+  color: $white;
   width: 90%;
   border-bottom-left-radius: $bRadius;
   border-top-left-radius: $bRadius;

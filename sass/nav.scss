@@ -1,30 +1,22 @@
 .navBar {
   position: fixed;
-  max-width: 150px;
-  margin-left: 30px;
+  width: 100%;
   padding: 10px;
   background-color: $gray;
-  border: 3px solid $teal;
-  border-top: 0;
-  border-radius: $bRadius;
   display: flex;
+  justify-content: space-around;
   z-index: 99;
 
   .navBar__left {
+    width: 20%;
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    //background-color: olivedrab;
 
     .navBar__logoDiv {
       height: 40px;
       width: 40px;
-
-      .navBar__logo {
-        //width: 100%;
-        //vertical-align: bottom;
-      }
     }
 
     @media all and (min-width: 960px) {
@@ -48,11 +40,11 @@
 
   .navBar__right {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    margin-left: 10px;
+    align-items: center;
+    margin-left: 20px;
     position: relative;
-    //background-color: mediumseagreen;
+    width: 70%;
 
     .navBar__link {
       text-decoration: none;
@@ -64,15 +56,14 @@
         transform-origin: left;
       }
     }
+
     .navBar__dropDown {
       display: none;
       position: absolute;
-      width: 170px;
-      right: -100px;
-      top: 20px;
-      padding: 10px;
+      left: 3vw;
+      top: 40px;
+      padding: 20px;
       background-color: $teal;
-      border-radius: $bRadius;
 
       &:hover {
         display: block;
@@ -81,12 +72,12 @@
       .navBar__projectLink {
         text-decoration: none;
         color: $white;
+        display: block;
+        margin-bottom: 20px;
       }
-    }
 
-    @media all and (min-width: 960px) {
-      .navBar__dropDown {
-        top: 27px;
+      .navBar__projectLink--NoMB {
+        margin-bottom: 0;
       }
     }
 
@@ -98,7 +89,26 @@
 
 @media all and (min-width: 960px) {
   .navBar {
-    max-width: 250px;
+    max-width: 200px;
     margin-left: 100px;
+    border: 3px solid $teal;
+    border-top: 0;
+    border-radius: $bRadius;
+
+    .navBar__left {
+      width: auto;
+    }
+
+    .navBar__right {
+      flex-direction: column;
+      width: auto;
+      align-items: start;
+
+      .navBar__dropDown {
+        width: 190px;
+        left: 0;
+        top: 27px;
+      }
+    }
   }
 }

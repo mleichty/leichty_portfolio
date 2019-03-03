@@ -1,7 +1,6 @@
 .projectSection {
   display: flex;
   flex-direction: column;
-  //align-items: center;
   padding-top: 60px;
 
   .projectSection__bottom {
@@ -15,11 +14,10 @@
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      //align-items: center;
       justify-content: center;
 
       .projectSection__lang {
-        background-color: $bronze;
+        color: $white;
         width: 60%;
         padding: 1.0rem;
         text-align: center;
@@ -52,10 +50,10 @@
 
     @media all and (min-width: 960px) {
       .projectSection__left {
-        width: 50%;
+        width: 40%;
       }
       .projectSection__right {
-        width: 50%;
+        width: 60%;
         margin-bottom: 0;
       }
     }

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c6b201e-1cde-430f-8dc2-765111054c94" name="Default Changelist" comment="" />
+    <list default="true" id="2c6b201e-1cde-430f-8dc2-765111054c94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2.html" beforeDir="false" afterPath="$PROJECT_DIR$/project2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.html" beforeDir="false" afterPath="$PROJECT_DIR$/project3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/aboutSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/aboutSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/homeSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/homeSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/projectPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/projectPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/projectsSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/projectsSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/sectionHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/sectionHeader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/structure.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/structure.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/triangle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/triangle.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,59 +27,109 @@
     <session id="702528010">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="html" value="4" />
-          <entry key="js" value="2" />
+          <entry key="html" value="7" />
+          <entry key="js" value="3" />
           <entry key="json" value="1" />
-          <entry key="scss" value="19" />
+          <entry key="scss" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="7" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="17" />
+          <entry key="SCSS" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3507" />
+          <entry key="html" value="3913" />
           <entry key="js" value="38" />
           <entry key="json" value="22" />
-          <entry key="scss" value="12938" />
+          <entry key="scss" value="14615" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3507" />
+          <entry key="HTML" value="3913" />
           <entry key="JSON" value="22" />
           <entry key="JavaScript" value="38" />
           <entry key="PLAIN_TEXT" value="155" />
-          <entry key="SCSS" value="12783" />
+          <entry key="SCSS" value="14460" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="44" column="109" selection-start-line="44" selection-start-column="109" selection-end-line="44" selection-end-column="109" />
+            <state relative-caret-position="5544">
+              <caret line="252" column="74" selection-start-line="252" selection-start-column="74" selection-end-line="252" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/triangle.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-917">
+              <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -91,23 +156,23 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/scss/structure.scss" />
-        <option value="$PROJECT_DIR$/sass/nav.scss" />
-        <option value="$PROJECT_DIR$/sass/variables.scss" />
         <option value="$PROJECT_DIR$/sass/projectSection.scss" />
-        <option value="$PROJECT_DIR$/sass/homeSection.scss" />
-        <option value="$PROJECT_DIR$/sass/sectionHeader.scss" />
-        <option value="$PROJECT_DIR$/sass/projectsSection.scss" />
         <option value="$PROJECT_DIR$/sass/contactSection.scss" />
-        <option value="$PROJECT_DIR$/sass/triangle.scss" />
         <option value="$PROJECT_DIR$/sass/main.scss" />
-        <option value="$PROJECT_DIR$/sass/aboutSection.scss" />
-        <option value="$PROJECT_DIR$/sass/structure.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/sass/variables.scss" />
         <option value="$PROJECT_DIR$/project1.html" />
         <option value="$PROJECT_DIR$/project2.html" />
         <option value="$PROJECT_DIR$/project3.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/aboutSection.scss" />
+        <option value="$PROJECT_DIR$/sass/projectsSection.scss" />
+        <option value="$PROJECT_DIR$/sass/nav.scss" />
+        <option value="$PROJECT_DIR$/sass/homeSection.scss" />
         <option value="$PROJECT_DIR$/sass/projectPage.scss" />
-        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/sass/sectionHeader.scss" />
+        <option value="$PROJECT_DIR$/sass/structure.scss" />
+        <option value="$PROJECT_DIR$/sass/triangle.scss" />
       </list>
     </option>
   </component>
@@ -129,10 +194,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="y" value="20" />
+    <option name="width" value="820" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,16 +211,32 @@
               <item name="leichty_portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="leichty_portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leichty_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leichty_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leichty_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leichty_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leichty_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leichty_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Owner/Documents/IUPUI stuff/Portfolio Development/leichty_portfolio/sass/projectsSection.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Fall 2018/Web development 215/final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitHub/maria_portfolio/boots" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -193,17 +272,23 @@
       <workItem from="1550891029233" duration="9675000" />
       <workItem from="1550937466041" duration="23803000" />
       <workItem from="1550970038166" duration="10470000" />
-      <workItem from="1551022373911" duration="29612000" />
+      <workItem from="1551022373911" duration="29997000" />
+      <workItem from="1551123446680" duration="715000" />
+      <workItem from="1551146070391" duration="989000" />
+      <workItem from="1551156019014" duration="636000" />
+      <workItem from="1551187154144" duration="11817000" />
+      <workItem from="1551582676171" duration="7099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73560000" />
+    <option name="totallyTimeSpent" value="95201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13557047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14563759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,76 +329,55 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/projectSection.scss" />
-    <entry file="file://$PROJECT_DIR$/sass/sectionHeader.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/projectPage.scss">
+    <entry file="file://$PROJECT_DIR$/sass/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/triangle.scss">
+    <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="396">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/homeSection.scss">
+    <entry file="file://$PROJECT_DIR$/project2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        <state relative-caret-position="594">
+          <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/nav.scss">
+    <entry file="file://$PROJECT_DIR$/project3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1210">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="594">
+          <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/structure.scss">
+    <entry file="file://$PROJECT_DIR$/project1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="-917">
+          <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/aboutSection.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/contactSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="3080">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/projectsSection.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="44">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -324,38 +388,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
+    <entry file="file://$PROJECT_DIR$/sass/nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="22">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project3.html">
+    <entry file="file://$PROJECT_DIR$/sass/contactSection.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1936">
-          <caret line="88" column="72" selection-start-line="88" selection-start-column="72" selection-end-line="88" selection-end-column="72" />
+        <state relative-caret-position="-1232">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project2.html">
+    <entry file="file://$PROJECT_DIR$/sass/projectPage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="62" column="72" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
+        <state relative-caret-position="-131">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1.html">
+    <entry file="file://$PROJECT_DIR$/sass/homeSection.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="99" column="72" selection-start-line="99" selection-start-column="72" selection-end-line="99" selection-end-column="72" />
+        <state relative-caret-position="198">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/sectionHeader.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/structure.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="44" column="109" selection-start-line="44" selection-start-column="109" selection-end-line="44" selection-end-column="109" />
+        <state relative-caret-position="5544">
+          <caret line="252" column="74" selection-start-line="252" selection-start-column="74" selection-end-line="252" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/triangle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>

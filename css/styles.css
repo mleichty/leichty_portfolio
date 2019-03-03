@@ -38,16 +38,14 @@ img {
 
 .navBar {
   position: fixed;
-  max-width: 150px;
-  margin-left: 30px;
+  width: 100%;
   padding: 10px;
   background-color: #908f8e;
-  border: 3px solid #226666;
-  border-top: 0;
-  border-radius: 10px;
   display: flex;
+  justify-content: space-around;
   z-index: 99; }
   .navBar .navBar__left {
+    width: 20%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -67,10 +65,11 @@ img {
         font-size: 3.0rem; } }
   .navBar .navBar__right {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    margin-left: 10px;
-    position: relative; }
+    align-items: center;
+    margin-left: 20px;
+    position: relative;
+    width: 70%; }
     .navBar .navBar__right .navBar__link {
       text-decoration: none;
       color: #000;
@@ -81,27 +80,39 @@ img {
     .navBar .navBar__right .navBar__dropDown {
       display: none;
       position: absolute;
-      width: 170px;
-      right: -100px;
-      top: 20px;
-      padding: 10px;
-      background-color: #226666;
-      border-radius: 10px; }
+      left: 3vw;
+      top: 40px;
+      padding: 20px;
+      background-color: #226666; }
       .navBar .navBar__right .navBar__dropDown:hover {
         display: block; }
       .navBar .navBar__right .navBar__dropDown .navBar__projectLink {
         text-decoration: none;
-        color: #fff; }
-    @media all and (min-width: 960px) {
-      .navBar .navBar__right .navBar__dropDown {
-        top: 27px; } }
+        color: #fff;
+        display: block;
+        margin-bottom: 20px; }
+      .navBar .navBar__right .navBar__dropDown .navBar__projectLink--NoMB {
+        margin-bottom: 0; }
     .navBar .navBar__right .navBar__link--dropDown:hover ~ .navBar__dropDown {
       display: block; }
 
 @media all and (min-width: 960px) {
   .navBar {
-    max-width: 250px;
-    margin-left: 100px; } }
+    max-width: 200px;
+    margin-left: 100px;
+    border: 3px solid #226666;
+    border-top: 0;
+    border-radius: 10px; }
+    .navBar .navBar__left {
+      width: auto; }
+    .navBar .navBar__right {
+      flex-direction: column;
+      width: auto;
+      align-items: start; }
+      .navBar .navBar__right .navBar__dropDown {
+        width: 190px;
+        left: 0;
+        top: 27px; } }
 
 .triangle__triDiv {
   position: relative; }
@@ -227,7 +238,9 @@ img {
   z-index: -1; }
 
 .sectionHeader {
-  background-color: #aa8439;
+  border: 5px solid #aa8439;
+  border-right: 0;
+  color: #fff;
   width: 90%;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
@@ -307,7 +320,7 @@ img {
       flex-wrap: wrap;
       justify-content: center; }
       .projectSection .projectSection__bottom .projectSection__left .projectSection__lang {
-        background-color: #aa8439;
+        color: #fff;
         width: 60%;
         padding: 1.0rem;
         text-align: center;
@@ -328,9 +341,9 @@ img {
       margin-bottom: 2.0rem; }
     @media all and (min-width: 960px) {
       .projectSection .projectSection__bottom .projectSection__left {
-        width: 50%; }
+        width: 40%; }
       .projectSection .projectSection__bottom .projectSection__right {
-        width: 50%;
+        width: 60%;
         margin-bottom: 0; } }
   @media all and (min-width: 960px) {
     .projectSection .projectSection__bottom {
@@ -348,72 +361,91 @@ img {
   display: flex;
   flex-direction: column;
   padding-top: 200px; }
-  .aboutSection .aboutSection__split {
+  .aboutSection .aboutSection__content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 4.0rem; }
-    .aboutSection .aboutSection__split .aboutSection__imageDiv {
-      width: 60%;
-      margin-bottom: 4.0rem;
-      box-shadow: -15px 15px 15px #aa8439; }
-      .aboutSection .aboutSection__split .aboutSection__imageDiv .aboutSection__image {
-        border-radius: 10px; }
-    .aboutSection .aboutSection__split .aboutSection__social {
-      width: 80%;
-      background-color: #aa8439;
-      border-radius: 10px;
-      padding: 3rem;
+    flex-direction: column; }
+    .aboutSection .aboutSection__content .aboutSection__split {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 4.0rem; }
+      .aboutSection .aboutSection__content .aboutSection__split .aboutSection__imageDiv {
+        width: 80%;
+        margin-bottom: 4.0rem; }
+        .aboutSection .aboutSection__content .aboutSection__split .aboutSection__imageDiv .aboutSection__image {
+          border-radius: 10px; }
+      .aboutSection .aboutSection__content .aboutSection__split .aboutSection__social {
+        width: 80%;
+        color: #fff;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around; }
+        .aboutSection .aboutSection__content .aboutSection__split .aboutSection__social .aboutSection__h1 {
+          font-size: 2.4rem; }
+        .aboutSection .aboutSection__content .aboutSection__split .aboutSection__social .aboutSection__icons {
+          display: flex;
+          align-items: center;
+          justify-content: space-around; }
+          .aboutSection .aboutSection__content .aboutSection__split .aboutSection__social .aboutSection__icons .aboutSection__icon {
+            font-size: 6.0rem; }
+    .aboutSection .aboutSection__content .aboutSection__full {
+      width: 70%;
+      color: #fff;
+      padding-top: 4rem;
       display: flex;
       flex-direction: column;
       text-align: center;
-      justify-content: space-around; }
-      .aboutSection .aboutSection__split .aboutSection__social .aboutSection__h1 {
+      justify-content: space-around;
+      align-items: center; }
+      .aboutSection .aboutSection__content .aboutSection__full .aboutSection__h1 {
         font-size: 2.4rem; }
-      .aboutSection .aboutSection__split .aboutSection__social .aboutSection__icons {
+      .aboutSection .aboutSection__content .aboutSection__full .aboutSection__h2 {
+        font-style: italic; }
+      .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        flex-direction: column;
         justify-content: space-around; }
-        .aboutSection .aboutSection__split .aboutSection__social .aboutSection__icons .aboutSection__icon {
-          color: #000;
-          font-size: 6.0rem; }
+        .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px; }
+          .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv .aboutSection__skill {
+            width: 20%;
+            margin-right: 20px; }
+          .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv .aboutSection__bar {
+            height: 30px;
+            background-color: #aa8439; }
+          .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv .aboutSection__bar--100 {
+            width: 80%; }
+          .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv .aboutSection__bar--75 {
+            width: 65%; }
+          .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv .aboutSection__bar--60 {
+            width: 60%; }
+          .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv .aboutSection__bar--50 {
+            width: 50%; }
+          .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv .aboutSection__bar--40 {
+            width: 40%; }
+          .aboutSection .aboutSection__content .aboutSection__full .aboutSection__skillsDiv .aboutSection__skillDiv .aboutSection__bar--30 {
+            width: 30%; }
   @media all and (min-width: 600px) {
-    .aboutSection .aboutSection__split {
-      flex-direction: row; }
-      .aboutSection .aboutSection__split .aboutSection__imageDiv {
-        width: 40%;
-        margin-right: 50px; }
-      .aboutSection .aboutSection__split .aboutSection__social {
-        width: 40%; } }
+    .aboutSection .aboutSection__content .aboutSection__split .aboutSection__imageDiv {
+      width: 100%; }
+    .aboutSection .aboutSection__content .aboutSection__split .aboutSection__social {
+      width: 100%; } }
   @media all and (min-width: 960px) {
-    .aboutSection .aboutSection__split .aboutSection__imageDiv {
-      width: 20%; }
-    .aboutSection .aboutSection__split .aboutSection__social {
-      width: 40%; } }
-  .aboutSection .aboutSection__full {
-    margin: auto;
-    width: 70%;
-    background-color: #aa8439;
-    border-radius: 10px;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-    margin-bottom: 8rem; }
-    .aboutSection .aboutSection__full .aboutSection__h1 {
-      font-size: 2.4rem; }
-    .aboutSection .aboutSection__full .aboutSection__h2 {
-      font-style: italic; }
-    .aboutSection .aboutSection__full .aboutSection__skillDiv {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around; }
-      .aboutSection .aboutSection__full .aboutSection__skillDiv .aboutSection__skill {
-        margin: 20px 50px 20px 50px; }
+    .aboutSection .aboutSection__content {
+      flex-direction: row;
+      padding: 6rem;
+      align-items: start; }
+      .aboutSection .aboutSection__content .aboutSection__split {
+        padding-top: 0; }
+      .aboutSection .aboutSection__content .aboutSection__full {
+        width: 40%; } }
 
 .contactSection {
   display: flex;
@@ -496,7 +528,7 @@ img {
     padding: 4.0rem; }
     .projectPage .projectPage__split .projectPage__listDiv {
       width: 80%;
-      background-color: #aa8439;
+      color: #fff;
       padding: 2.5rem;
       border-radius: 10px; }
       .projectPage .projectPage__split .projectPage__listDiv .projectPage__list {
@@ -511,10 +543,6 @@ img {
       margin-bottom: 4.0rem; }
       .projectPage .projectPage__split .projectPage__screenDiv .projectPage__screen {
         border-radius: 10px; }
-    .projectPage .projectPage__split .projectPage__screenDiv--R {
-      box-shadow: 15px 15px 15px #aa8439; }
-    .projectPage .projectPage__split .projectPage__screenDiv--L {
-      box-shadow: -15px 15px 15px #aa8439; }
   @media all and (min-width: 960px) {
     .projectPage .projectPage__split {
       flex-direction: row;

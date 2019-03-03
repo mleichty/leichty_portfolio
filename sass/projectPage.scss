@@ -42,15 +42,13 @@
 
     .projectPage__listDiv {
       width: 80%;
-      background-color: $bronze;
+      color: $white;
       padding: 2.5rem;
       border-radius: $bRadius;
 
       .projectPage__list {
         display: flex;
         flex-direction: column;
-        //justify-content: space-around;
-        //align-items: center;
 
         li {
           margin-bottom: 1.6rem;
@@ -69,17 +67,7 @@
 
       .projectPage__screen {
         border-radius: $bRadius;
-        //overflow: hidden;
-        //background-color: transparent;
       }
-    }
-
-    .projectPage__screenDiv--R {
-      box-shadow: 15px 15px 15px $bronze;
-    }
-
-    .projectPage__screenDiv--L {
-      box-shadow: -15px 15px 15px $bronze;
     }
   }
 
