@@ -321,18 +321,14 @@ img {
       justify-content: center; }
       .projectSection .projectSection__bottom .projectSection__left .projectSection__lang {
         color: #fff;
-        width: 60%;
+        width: 50%;
         padding: 1.0rem;
         text-align: center;
         border-radius: 10px; }
-      @media all and (min-width: 600px) {
-        .projectSection .projectSection__bottom .projectSection__left .projectSection__lang {
-          width: 44%;
-          margin-right: 2.0rem; } }
       .projectSection .projectSection__bottom .projectSection__left .projectSection__lang--lg {
-        font-size: 3.8rem; }
+        font-size: 3.5rem; }
       .projectSection .projectSection__bottom .projectSection__left .projectSection__lang--sm {
-        font-size: 2.9rem;
+        font-size: 2.7rem;
         display: flex;
         align-items: center;
         justify-content: center; }
