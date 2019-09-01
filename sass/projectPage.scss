@@ -69,6 +69,10 @@
         border-radius: $bRadius;
       }
     }
+
+    .projectPage__screenDiv--link {
+      cursor: pointer;
+    }
   }
 
   @media all and (min-width: 960px) {
@@ -88,7 +92,7 @@
   }
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 960px) {
   .projectPage{
     padding-top: 50px;
   }

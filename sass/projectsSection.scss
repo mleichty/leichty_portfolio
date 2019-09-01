@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2.0rem;
 
     .projectSection__left {
@@ -15,24 +15,26 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      align-items: center;
+      list-style-position: inside;
 
       .projectSection__lang {
         color: $white;
-        width: 50%;
-        padding: 1.0rem;
-        text-align: center;
-        border-radius: $bRadius;
+        width: 100%;
+        padding: 0.7rem;
+        //text-align: center;
+        //border-radius: $bRadius;
       }
 
       @media all and (min-width: 600px) {
         .projectSection__lang {
-          //width: 44%;
+          width: 50%;
           //margin-right: 2.0rem;
         }
       }
 
       .projectSection__lang--lg {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
       }
 
       .projectSection__lang--sm {
@@ -50,10 +52,11 @@
 
     @media all and (min-width: 960px) {
       .projectSection__left {
-        width: 40%;
+        width: 50%;
+        justify-content: space-between;
       }
       .projectSection__right {
-        width: 60%;
+        width: 50%;
         margin-bottom: 0;
       }
     }

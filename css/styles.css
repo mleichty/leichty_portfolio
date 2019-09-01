@@ -312,21 +312,24 @@ img {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2.0rem; }
     .projectSection .projectSection__bottom .projectSection__left {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center;
+      list-style-position: inside; }
       .projectSection .projectSection__bottom .projectSection__left .projectSection__lang {
         color: #fff;
-        width: 50%;
-        padding: 1.0rem;
-        text-align: center;
-        border-radius: 10px; }
+        width: 100%;
+        padding: 0.7rem; }
+      @media all and (min-width: 600px) {
+        .projectSection .projectSection__bottom .projectSection__left .projectSection__lang {
+          width: 50%; } }
       .projectSection .projectSection__bottom .projectSection__left .projectSection__lang--lg {
-        font-size: 3.5rem; }
+        font-size: 2.5rem; }
       .projectSection .projectSection__bottom .projectSection__left .projectSection__lang--sm {
         font-size: 2.7rem;
         display: flex;
@@ -337,9 +340,10 @@ img {
       margin-bottom: 2.0rem; }
     @media all and (min-width: 960px) {
       .projectSection .projectSection__bottom .projectSection__left {
-        width: 40%; }
+        width: 50%;
+        justify-content: space-between; }
       .projectSection .projectSection__bottom .projectSection__right {
-        width: 60%;
+        width: 50%;
         margin-bottom: 0; } }
   @media all and (min-width: 960px) {
     .projectSection .projectSection__bottom {
@@ -539,6 +543,8 @@ img {
       margin-bottom: 4.0rem; }
       .projectPage .projectPage__split .projectPage__screenDiv .projectPage__screen {
         border-radius: 10px; }
+    .projectPage .projectPage__split .projectPage__screenDiv--link {
+      cursor: pointer; }
   @media all and (min-width: 960px) {
     .projectPage .projectPage__split {
       flex-direction: row;
@@ -549,6 +555,6 @@ img {
         width: 40%;
         margin-bottom: 0; } }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 960px) {
   .projectPage {
     padding-top: 50px; } }

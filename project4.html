@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maria's Projects</title>
+    <link rel="shortcut icon" type="image/png" href="/images/Maria_logo.png"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+<div class="wrapper">
+    <nav class="navBar">
+        <div class="navBar__left">
+            <a href="index.html#homeSection" class="navBar__logoDiv">
+                <img class="navBar__logo" src="images/Maria_logo.png" alt="Maria's logo">
+            </a>
+            <h1 class="navBar__name">Maria</h1>
+        </div>
+        <div class="navBar__right">
+            <a href="index.html#projectsSection" class="navBar__link navBar__link--dropDown">Projects></a>
+            <div class="navBar__dropDown">
+                <a href="project4.html" class="navBar__projectLink">Rick's Cooking School</a>
+                <a href="project1.html" class="navBar__projectLink">Mythical Mates</a>
+                <a href="project2.html" class="navBar__projectLink">BellaVista Fruit</a>
+                <a href="project3.html" class="navBar__projectLink navBar__projectLink--NoMB">TRG Web Designs</a>
+            </div>
+            <a href="index.html#aboutSection" class="navBar__link">About</a>
+            <a href="#" class="navBar__link" id="contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="projectPage">
+        <div class="projectPage__sectionHeader">
+            <a class="projectPage__imageDiv" href="https://rickscookingschool.com/" target="_blank">
+                <img class="projectPage__image" src="images/rickscookingschool3.png" alt="">
+            </a>
+        </div>
+
+        <div class="sectionHeader">
+            <p class="sectionHeader__num">1</p>
+            <p class="sectionHeader__paraNoMB">
+                For Rick’s Cooking School, I created a new website from scratch. He originally had a self-made
+                website on Wix which was hard to navigate and had a clunky user interface. My goal was to create
+                a clean design with easy-to-use admin features for the owner. From the <a href="images/proposal.pdf" target="_blank">project proposal</a>
+                to the <a href="https://xd.adobe.com/view/e1520706-4216-4313-68d1-d2a147357729-9763/?fullscreen" target="_blank">prototype</a>
+                to user testing, I worked with the owner throughout the whole process. Below are some screenshots or
+                you can go to the <a href="https://rickscookingschool.com" target="_blank">website</a>.
+            </p>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgR">
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Connected to database to retrieve and display most recently added recipe
+                        as featured – same for weekly meals and classes</li>
+                    <li>Used jQuery on change method to dynamically search recipes</li>
+                    <li>Utilized JOIN clauses through intersection
+                        tables to display categories – this created a simple and organized database</li>
+                    <li class="projectPage__listNoMB">Incorporated search bar in navigation if user wants
+                        to search via name or description</li>
+                </ul>
+            </div>
+
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
+                <img class="projectPage__screen" src="images/ricks1.png" alt="">
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgL">
+            <div class="projectPage__screenDiv projectPage__screenDiv--L">
+                <img class="projectPage__screen" src="images/ricks2.png" alt="">
+            </div>
+
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Created a session variable to check whether user is an admin – if so, display add
+                        options in nav bar along with edit and delete options on recipe detail page</li>
+                    <li>Connected to database to retrieve and display recipe details – same for weekly meals and classes</li>
+                    <li>Performed JOIN clause through intersection tables to display categories</li>
+                    <li>Performed subquery with JOIN clause to display similar recipes</li>
+                    <li class="projectPage__listNoMB">Added print styling to create an aesthetic print page for each recipe</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgR">
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Used jQuery click methods to append and remove ingredient or direction inputs
+                        so you can add as many as needed</li>
+                    <li>Utilized arrays to store an unknown number of ingredients or directions then insert into database</li>
+                    <li>Automatically displayed ingredient or direction number with JavaScript</li>
+                    <li class="projectPage__listNoMB">Implemented numbers for each ingredient or direction so admin
+                        can easily adjust steps if make a mistake</li>
+                </ul>
+            </div>
+
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
+                <img class="projectPage__screen" src="images/ricks3.png" alt="">
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgL">
+            <div class="projectPage__screenDiv projectPage__screenDiv--L">
+                <img class="projectPage__screen" src="images/ricks4.png" alt="">
+            </div>
+
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Retrieve recipe details when admin clicks edit button and automatically adds
+                        current values to inputs – same for weekly meals and classes</li>
+                    <li>Used NOT IN with a subquery to retrieve categories that have not been assigned to the recipe yet</li>
+                    <li class="projectPage__listNoMB">Assigned features like popular and healthy to each recipe so
+                        admin can dynamically add those to sections on the main recipes page</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgR">
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Wrote necessary SQL statements to dynamically retrieve popular categories and popular and recent recipes</li>
+                    <li>For design, maintained picture-focused website by adding each recipes’ picture as a background picture</li>
+                    <li class="projectPage__listNoMB">Incorporated similar single-recipe design throughout site to establish cohesive feel</li>
+                </ul>
+            </div>
+
+            <div class="projectPage__screenDiv projectPage__screenDiv--R">
+                <img class="projectPage__screen" src="images/ricks5.png" alt="">
+            </div>
+        </div>
+
+        <div class="projectPage__split projectPage__split--imgL">
+            <div class="projectPage__screenDiv projectPage__screenDiv--L">
+                <img class="projectPage__screen" src="images/ricks6.png" alt="">
+            </div>
+
+            <div class="projectPage__listDiv">
+                <ul class="projectPage__list">
+                    <li>Integrated with Mailchimp newsletter in order to create an easier newsletter process for admin</li>
+                    <li>Implemented php mail function for contact form</li>
+                    <li class="projectPage__listNoMB">Forwarded hosted email address to Gmail so admin could
+                        receive contact form directly in Gmail account</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--add any extra sections HERE-->
+
+        <div class="triangle__triDiv triangle__triDiv--reg">
+            <div class="triangle__tri"></div>
+            <h1 class="triangle__subTitle">Contact</h1>
+        </div>
+    </section>
+
+    <section class="contactSection" id="contactSection">
+        <div class="sectionHeader sectionHeader--noNum">
+            <p class="sectionHeader__title">
+                If you’re interested in working with me, send me a quick message and let me know what I can do for you!
+            </p>
+        </div>
+
+        <div class="contactSection__split">
+            <div class="contactSection__logoDiv">
+                <img src="images/logo_big.png" alt="">
+            </div>
+
+            <div class="contactSection__formDiv">
+                <div class="contactSection__form">
+                    <form action="mailto:mleichty@iu.edu" method="post" enctype="text/plain">
+                        <input type="text" name="firstName" placeholder="First Name" required>
+                        <input type="text" name="lastName" placeholder="Last Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Write your message here..." required></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>
